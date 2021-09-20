@@ -1,4 +1,5 @@
 import styles from '../styles/Contact.module.scss';
+import Link from 'next/link'
 
 export default function Contact() {
     return (
@@ -7,9 +8,9 @@ export default function Contact() {
             </h2>
             <p className={styles.contact__paragraph}>We are looking forward to hearing from you. Feel free to contact us
                 if you have any questions!</p>
-            <a href="/contact">
+            <Link href="/contact">
                 <button>Contact Us</button>
-            </a>
+            </Link>
         </div>
     )
 }
