@@ -1,25 +1,26 @@
 import Image from 'next/image'
 import styles from '../styles/Header.module.scss';
 import logo from '../public/Logo.png'
+import Link from 'next/link'
 
 export default function Header() {
     return (
         <header className={styles.header}>
             <div className={styles.header__logo}>
-                <a href="/">
+                <Link href="/">
                     <Image src={logo} alt="" width="348" height="32"  />
-                </a>
+                </Link>
             </div>
             <div className={styles.header__links_container}>
-            <a href="/shop">
+            <Link href="/shop">
                 <h4 className={styles.header__link}>SHOP</h4>
-            </a>
-            <a href="/partners">
+            </Link>
+            <Link href="/partners">
                 <h4 className={styles.header__link}>PARTNERS</h4>
-            </a>
-            <a href="/contact">
+            </Link>
+            <Link href="/contact">
                 <h4 className={styles.header__link}>CONTACT</h4>
-            </a>
+            </Link>
             </div>
             <a className="header__summary snipcart-checkout snipcart-summary" href="#" style={{textDecoration: "none"}}>
                 <svg width="31" height="27" viewBox="0 0 31 27" fill="none" xmlns="http://www.w3.org/2000/svg">
