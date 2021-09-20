@@ -1,8 +1,9 @@
 @use 'mixins';
 
 .footer {
+  height: 24vh;
   color: white;
-  background: linear-gradient(90deg, #707070 0%, #474747 100%);
+  background: mixins.$color-black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,4 +21,32 @@
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
+  &__container {
+    display: flex;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    padding: 0 32px 0 32px;
+  }
+
+  &__list > h5 {
+    color: mixins.$color-teal;
+    text-decoration: none;
+  }
+
+  &__list > a {
+    text-decoration: none;
+  }
+
+  &__social_link {
+    width: 32px;
+    padding: 0 24px 0 0;
+    }
+  
+    &__social {
+      width: 32px;
+    }
 }

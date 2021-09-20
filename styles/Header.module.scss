@@ -1,28 +1,31 @@
 @use 'mixins';
 
 .header {
-  @include mixins.centered;
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15%;
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: mixins.$color-black;
 
   a {
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
+    text-decoration: none;
   }
 
   a > span {
-    color: mixins.$color-purple;
+    color: mixins.$color-teal;
     margin-left: 10px;
   }
 
   &__logo {
-    height: 38px;
+    height: 32px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
 
@@ -30,5 +33,20 @@
     padding: 0;
     font-size: 24px;
     margin: 0 0 0 20px;
+    text-decoration: none;
+    color: mixins.$color-teal;
+  }
+
+  &__links_container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: mixins.$color-teal;
+    padding:  0 15px 0 15px;
   }
 }

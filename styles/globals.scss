@@ -1,5 +1,9 @@
 @use 'mixins';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
+@font-face {
+  font-family: Sequel;
+  src: url('../public/font/Sequel100Black-85.ttf');
+}
 
 * {
   box-sizing: border-box;
@@ -10,6 +14,10 @@ html, body {
   font-size: 16px;
   margin: 0;
   padding: 0;
+}
+
+::selection {
+  background: #6dffda83; 
 }
 
 .app {
@@ -23,17 +31,26 @@ html, body {
   @include mixins.centered;
 }
 
-
-.background-image {
-  position: absolute;
-  opacity: 0.02;
-  left: -10vw;
-  top: -10vh;
-  height: 75vh;
-  transform: rotate(20deg);
-  pointer-events: none;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Sequel, Arial, Helvetica, sans-serif;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: mixins.$color-white;
+}
+
+.main {
+  background-color: mixins.$color-dark;
+}
 
 .promotional-message {
   margin-bottom: 100px;
@@ -55,7 +72,7 @@ html, body {
       font-size: 50px;
     }
     margin: 0;
-    color: mixins.$color-purple;
+    color: mixins.$color-teal;
   }
 }
 

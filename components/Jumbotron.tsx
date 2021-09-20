@@ -3,13 +3,10 @@ import aquarium from '../public/aquarium.svg';
 
 const Jumbotron = () => {
     return (< >
-        <div className="background-image">
-            <Image src={aquarium} alt={aquarium}/>
-        </div>
         <div className="promotional-message">
-            <h3>REDISCOVER</h3>
-            <h2>Fishkeeping</h2>
-            <p>An <strong>exclusive collection of bettas</strong> available for everyone.</p>
+            <h3>PERSONALIZED</h3>
+            <h2>LIGHTBOXES</h2>
+            <p>For <strong>everyone</strong>.</p>
         </div>
     </>)
 }

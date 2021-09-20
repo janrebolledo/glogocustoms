@@ -54,6 +54,7 @@
   }
 
   &__price {
+    color: mixins.$color-white;
     grid-area: price;
     font-size: 28px;
     font-weight: bold;
@@ -61,16 +62,14 @@
 
   &__image {
     grid-area: image;
-    width: 100%;
-    max-height: 90%;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: fill;
-    box-shadow: 0 18.025px 43.775px rgba(0, 0, 0, 0.25);
 
     @include mixins.mobile {
       height: 300px;
       max-height: 300px;
       object-fit: contain;
-      width: 100%;
       margin-bottom: 30px;
     }
   }
@@ -87,7 +86,7 @@
     border-radius: 4px;
     padding: 6px 20px;
     border: none;
-    background-color: mixins.$color-purple;
+    background-color: mixins.$color-teal;
     color: white;
     position: relative;
 
@@ -101,7 +100,7 @@
     &:before {
       content: ' ';
       position: absolute;
-      background-color: mixins.$color-purple;
+      background-color: mixins.$color-teal;
       top: 0;
       left: 0;
       border-radius: 4px;
@@ -124,7 +123,6 @@
 
     .product__image {
       height: 300px;
-      width: 100%;
       margin-bottom: 30px;
     }
   }

@@ -7,7 +7,7 @@ export default function Contact() {
             </h2>
             <p className={styles.contact__paragraph}>We are looking forward to hearing from you. Feel free to contact us
                 if you have any questions!</p>
-            <a href="https://snipcart.com/contact-feedback">
+            <a href="/contact">
                 <button>Contact Us</button>
             </a>
         </div>
