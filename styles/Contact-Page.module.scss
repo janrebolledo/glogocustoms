@@ -1,0 +1,28 @@
+@use 'mixins';
+
+.contact_container {
+    @include mixins.centered
+}
+
+.form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.form > label input textarea {
+    border: none;
+    appearance: none;
+}
+
+.input {
+    margin: 16px 0;
+    padding: 15px;
+}
+
+.textarea {
+    resize: none;
+    height: 30vh;
+    margin: 16px 0;
+    padding: 15px;
+}

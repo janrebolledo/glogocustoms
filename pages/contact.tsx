@@ -1,6 +1,6 @@
 import Script from 'next/script';
 import ProductList from "../components/ProductList";
-import Contact from "../components/Contact";
+import Contact from "../components/Contact-Page";
 import Head from "next/head";
 import {IProduct} from "../components/Product";
 import {GetStaticProps} from "next";
