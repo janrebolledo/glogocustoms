@@ -4,8 +4,8 @@ import aquarium from '../public/aquarium.svg';
 const Jumbotron = () => {
     return (< >
         <div className="promotional-message">
-            <h3>PERSONALIZED</h3>
-            <h2>LIGHTBOXES</h2>
+            <h3>CUSTOMIZED</h3>
+            <h2>LIGHTING</h2>
             <p>For <strong>everyone</strong>.</p>
         </div>
     </>)
