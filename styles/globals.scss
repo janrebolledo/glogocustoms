@@ -20,6 +20,10 @@ html, body {
   background: #6dffda83; 
 }
 
+:root {
+    --swiper-theme-color: #6dffda !important;
+}
+
 .app {
   min-height: 100vh;
   min-width: 100vh;
