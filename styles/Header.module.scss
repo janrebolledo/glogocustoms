@@ -42,11 +42,15 @@
     align-items: flex-end;
     justify-content: center;
     flex-direction: row;
+    @include mixins.mobile {
+      display: none;
+    }
   }
 
   &__link {
     text-decoration: none;
     color: mixins.$color-teal;
     padding:  0 15px 0 15px;
+    cursor: pointer;
   }
 }

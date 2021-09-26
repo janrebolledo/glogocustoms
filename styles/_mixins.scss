@@ -18,6 +18,12 @@ $sequel: Sequel, Arial, Helvetica, sans-serif;
   }
 }
 
+@mixin flex-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 @mixin mobile {
   @media (max-width: 600px) {

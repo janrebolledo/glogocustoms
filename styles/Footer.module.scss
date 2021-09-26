@@ -1,12 +1,18 @@
 @use 'mixins';
 
 .footer {
-  height: 24vh;
+  height: auto;
+  min-height: 24vh;
+  padding: 5% 0;
+  @include mixins.mobile {
+    height: auto;
+  }
   color: white;
   background: mixins.$color-black;
   display: flex;
   align-items: center;
   justify-content: center;
+
   &__left {
     margin-right: auto;
   }
@@ -22,23 +28,51 @@
     padding-bottom: 20px;
   }
 
+  &__logo_container {
+    height: 120px;
+    @include mixins.mobile {
+      @include mixins.flex-centered;
+      width: 100%;
+    }
+  }
+
   &__container {
     display: flex;
+    flex-direction: row;
+    @include mixins.mobile {
+      flex-direction: column;
+    }
   }
 
   &__list {
     display: flex;
     flex-direction: column;
     padding: 0 32px 0 32px;
+    @include mixins.mobile {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
   }
 
   &__list > h5 {
     color: mixins.$color-teal;
     text-decoration: none;
+    @include mixins.mobile {
+      display: none;
+    }
   }
 
   &__list > a {
     text-decoration: none;
+    @include mixins.mobile {
+      padding: 15px;
+      font-size: x-large;
+    }
+  }
+
+  &__socials {
+    flex-direction: row;
   }
 
   &__social_link {
