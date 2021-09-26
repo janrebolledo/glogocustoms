@@ -29,7 +29,7 @@
   }
 
   &__logo_container {
-    height: 120px;
+    width: 100%;
     @include mixins.mobile {
       @include mixins.flex-centered;
       width: 100%;
@@ -48,6 +48,7 @@
     display: flex;
     flex-direction: column;
     padding: 0 32px 0 32px;
+    width: 100%;
     @include mixins.mobile {
       flex-direction: row;
       align-items: center;
