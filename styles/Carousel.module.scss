@@ -1,0 +1,5 @@
+@use 'mixins';
+
+.carousel_container {
+    @include mixins.centered
+}
