@@ -23,7 +23,6 @@ export default function Home({products}: IProductListProps) {
                 <meta name="description" content="Contact us with questions or comments about your order."></meta>
                 <meta name="keywords" content="glogo customs, glogocustoms, lightbox, custom lights"></meta>
                 <meta name="robots" content="index, follow"></meta>
-                <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
                 <meta name="language" content="English"></meta>
                 <meta name="revisit-after" content="12 days"></meta>
             </Head>
