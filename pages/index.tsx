@@ -7,6 +7,7 @@ import lightbox from "../public/lightbox.jpg";
 import {GetStaticProps} from "next";
 import Jumbotron from "../components/Jumbotron";
 import Carousel from "../components/Carousel";
+import Collections from "../components/Collections";
 
 interface IProductListProps {
     products: IProduct[]
@@ -26,6 +27,7 @@ export default function Home({products}: IProductListProps) {
                 <Jumbotron />
                 <ProductList products={products}/>
                 <Carousel />
+                <Collections />
                 <Contact/>
             </main>
             <Script src="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.js"/>
