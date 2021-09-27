@@ -14,11 +14,18 @@ export default function Home({products}: IProductListProps) {
     return (
         <>
             <Head>
-                <title>My awesome store</title>
+                <title>Glogo Customs</title>
                 <link rel="preconnect" href="https://app.snipcart.com"/>
                 <link rel="preconnect" href="https://cdn.snipcart.com"/>
                 <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.css"/>
                 <link rel="shortcut icon" href="../public/favicon.ico" />
+                <meta name="title" content="Glogo Customs"></meta>
+                <meta name="description" content="Contact us with questions or comments about your order."></meta>
+                <meta name="keywords" content="glogo customs, glogocustoms, lightbox, custom lights"></meta>
+                <meta name="robots" content="index, follow"></meta>
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+                <meta name="language" content="English"></meta>
+                <meta name="revisit-after" content="12 days"></meta>
             </Head>
             <main className="main">
                 <Contact/>
