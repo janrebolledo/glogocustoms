@@ -21,7 +21,7 @@ export default function Home({products}: IProductListProps) {
                 <link rel="preconnect" href="https://app.snipcart.com"/>
                 <link rel="preconnect" href="https://cdn.snipcart.com"/>
                 <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.css"/>
-                <link rel="shortcut icon" href="../public/favicon.ico" />
+                <link rel="icon" href="https://www.glogocustoms.com/favicon.ico" type="image/x-icon" />
                 <meta name="title" content="Glogo Customs"></meta>
                 <meta name="description" content="Customized light products made in the U.S.A"></meta>
                 <meta name="keywords" content="glogo customs, glogocustoms, lightbox, custom lights"></meta>
@@ -33,13 +33,13 @@ export default function Home({products}: IProductListProps) {
                 <meta property="og:url" content="https://www.glogocustoms.com/"></meta>
                 <meta property="og:title" content="Glogo Customs"></meta>
                 <meta property="og:description" content="Customized light products made in the U.S.A"></meta>
-                <meta property="og:image" content="../public/Social-Image.png"></meta>
+                <meta property="og:image" content="https://www.glogocustoms.com/Social-Image.png"></meta>
 
                 <meta property="twitter:card" content="summary_large_image"></meta>
                 <meta property="twitter:url" content="https://www.glogocustoms.com/"></meta>
                 <meta property="twitter:title" content="Glogo Customs"></meta>
                 <meta property="twitter:description" content="Customized light products made in the U.S.A"></meta>
-                <meta property="twitter:image" content="../public/Social-Image.png"></meta>
+                <meta property="twitter:image" content="https://www.glogocustoms.com/Social-Image.png"></meta>
             </Head>
             <main className="main">
                 <Jumbotron />
