@@ -4,8 +4,8 @@ import Image from 'next/dist/client/image';
 import exampleImage from '../public/Example Profile Picture.jpg'
 import instagram from '../public/instagram.png'
 import twitter from '../public/twitter.png'
-import twitch from '../public/twitch.png'
-import youtube from '../public/youtube.png'
+import twitch from '../public/Twitch.png'
+import youtube from '../public/Youtube.png'
 
 export default function Partners() {
     return (
