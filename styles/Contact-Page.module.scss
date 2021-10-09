@@ -1,7 +1,8 @@
 @use 'mixins';
 
 .contact_container {
-    @include mixins.centered
+    @include mixins.centered;
+    margin-bottom: 20vh;
 }
 
 .form {

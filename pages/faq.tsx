@@ -1,6 +1,7 @@
 import Script from 'next/script';
 import ProductList from "../components/ProductList";
-import Contact from "../components/Contact-Page";
+import FAQ from "../components/FAQ";
+import Contact from "../components/Contact";
 import Head from "next/head";
 import {IProduct} from "../components/Product";
 import {GetStaticProps} from "next";
@@ -27,6 +28,7 @@ export default function ContactPage() {
                 <meta name="revisit-after" content="12 days"></meta>
             </Head>
             <main className="main">
+                <FAQ />
                 <Contact/>
             </main>
         </>

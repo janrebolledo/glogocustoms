@@ -20,6 +20,7 @@ export default function Footer(){
                     <Link href="/shop">SHOP</Link>
                     <Link href="/partners">PARTNERS</Link>
                     <Link href="/contact">CONTACT</Link>
+                    <Link href="/faq">FAQ</Link>
                 </div>
                 <div className={styles.footer__list}>
                     <h5>Follow us on social media</h5>
