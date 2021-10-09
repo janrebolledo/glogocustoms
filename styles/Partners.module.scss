@@ -1,1 +1,42 @@
 @use 'mixins';
+
+.partners {
+    @include mixins.centered;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    h5 > b {
+        font-family: mixins.$sequel;
+        color: mixins.$color-teal;
+    }
+
+    h5 > i {
+        font-size: 12px;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+        height: 300px;
+        margin: 5px;
+    }
+
+    &__socials {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    &__socials > a {
+        padding-right: 15px;
+    }
+}
+

@@ -1,4 +1,3 @@
-import Script from 'next/script';
 import ProductList from "../components/ProductList";
 import Contact from "../components/Contact";
 import Head from "next/head";
@@ -48,9 +47,6 @@ export default function Home({products}: IProductListProps) {
                 <Collections />
                 <Contact/>
             </main>
-            <Script src="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.js"/>
-            <div hidden id="snipcart" data-api-key="ODA2ODg4M2EtOTRjOS00MjFkLWE2MjgtZWI2YWI0NWQyY2M2NjM3Njc1MzM3MjEzOTQ5NTY4">
-            </div>
         </>
     )
 }
@@ -58,16 +54,16 @@ export default function Home({products}: IProductListProps) {
 export const products: IProduct[] = [
     {
         id: "sign",
-        name: "Lightbox Sign",
-        price: 125.00,
+        name: "Glogo XL",
+        price: 150.00,
         image: lightbox,
         description: "Made in the U.S.",
         url: '/api/products/lightbox'
     },
     {
         id: "sign-2",
-        name: "Lightbox Sign",
-        price: 100.00,
+        name: "Glogo",
+        price: 125.00,
         image: lightbox,
         description: "Made in the U.S.",
         url: '/api/products/lightbox'
