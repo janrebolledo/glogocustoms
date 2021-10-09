@@ -31,10 +31,10 @@ export default function Carousel() {
         }}
         className="mySwiper"
       >
-        <SwiperSlide><Image src={carouselImage1} width="1200" height="1400"></Image></SwiperSlide>
-        <SwiperSlide><Image src={carouselImage2} width="1200" height="1400"></Image></SwiperSlide>
-        <SwiperSlide><Image src={carouselImage3} width="1200" height="1400"></Image></SwiperSlide>
-        <SwiperSlide><Image src={carouselImage4} width="1200" height="1400"></Image></SwiperSlide>
+        <SwiperSlide><Image alt="" src={carouselImage1} width="1200" height="1400"></Image></SwiperSlide>
+        <SwiperSlide><Image alt="" src={carouselImage2} width="1200" height="1400"></Image></SwiperSlide>
+        <SwiperSlide><Image alt="" src={carouselImage3} width="1200" height="1400"></Image></SwiperSlide>
+        <SwiperSlide><Image alt="" src={carouselImage4} width="1200" height="1400"></Image></SwiperSlide>
       </Swiper>
     </div>
   )

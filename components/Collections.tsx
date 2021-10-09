@@ -11,14 +11,14 @@ export default function CollectionsSection() {
                     <h3>SHOP LIGHTBOXES</h3>
                     <Link href=""><a className={styles.collection_button}>VIEW COLLECTION</a></Link>
                 </div>
-                <Image src={sampleImage} className={styles.collection_image}></Image>
+                <Image alt="" src={sampleImage} className={styles.collection_image}></Image>
             </div>
             <div className={styles.collection2}>
                 <div className={styles.collection_overlay}>
                     <h3>SHOP ALL</h3>
                     <Link href=""><a className={styles.collection_button}>VIEW COLLECTION</a></Link>
                 </div>
-                <Image src={sampleImage} className={styles.collection_image}></Image>
+                <Image alt="" src={sampleImage} className={styles.collection_image}></Image>
             </div>
         </div>
         

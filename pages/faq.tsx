@@ -1,15 +1,6 @@
-import Script from 'next/script';
-import ProductList from "../components/ProductList";
 import FAQ from "../components/FAQ";
 import Contact from "../components/Contact";
 import Head from "next/head";
-import {IProduct} from "../components/Product";
-import {GetStaticProps} from "next";
-import Jumbotron from "../components/Jumbotron";
-
-interface IProductListProps {
-    products: IProduct[]
-}
 
 export default function ContactPage() {
     return (
