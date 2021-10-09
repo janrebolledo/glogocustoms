@@ -12,7 +12,7 @@ export default function ContactPage() {
                 <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.css"/>
                 <link rel="icon" href="https://www.glogocustoms.com/favicon.ico" type="image/x-icon" />
                 <meta name="title" content="Glogo Customs"></meta>
-                <meta name="description" content="Contact us with questions or comments about your order."></meta>
+                <meta name="description" content="Frequently asked questions about our Glogos."></meta>
                 <meta name="keywords" content="glogo customs, glogocustoms, lightbox, custom lights"></meta>
                 <meta name="robots" content="index, follow"></meta>
                 <meta name="language" content="English"></meta>
