@@ -77,7 +77,14 @@
     transform: scale(1.2);
 }
 
-.collection:hover {
+.collection1:hover {
+    .collection_image {
+        opacity: .3;
+        transform: scale(1);
+    }
+}
+
+.collection2:hover {
     .collection_image {
         opacity: .3;
         transform: scale(1);

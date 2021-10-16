@@ -4,6 +4,8 @@
   width: 100%;
   @include mixins.mobile {
     width: auto;
+    max-width: 454px;
+    margin: 0 12px;
   }
 
   grid-template-areas:

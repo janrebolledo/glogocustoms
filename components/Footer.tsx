@@ -3,6 +3,8 @@ import styles from '../styles/Footer.module.scss'
 import logo from '../public/Logo 2.png'
 import instagram from '../public/instagram.png'
 import twitter from '../public/twitter.png'
+import tiktok from '../public/tiktok.png'
+import twitch from '../public/Twitch.png'
 import Link from 'next/link'
 
 export default function Footer(){
@@ -25,14 +27,24 @@ export default function Footer(){
                 <div className={styles.footer__list}>
                     <h5>Follow us on social media</h5>
                     <div className={styles.footer__socials}>
-                        <Link href="/">
+                        <Link href="https://www.instagram.com/glogo_customs/">
                             <a className={styles.footer__social_link} href="">
                             <Image className={styles.footer__social} src={instagram} alt="" width="32" height="32" />
                             </a>
                         </Link>
-                        <Link href="/">
+                        <Link href="https://twitter.com/GlogoCustoms">
                             <a className={styles.footer__social_link}>
                             <Image className={styles.footer__social} src={twitter} alt="" width="32" height="32" />
+                            </a>
+                        </Link>
+                        <Link href="https://www.tiktok.com/@glogocustoms?">
+                            <a className={styles.footer__social_link}>
+                            <Image className={styles.footer__social} src={tiktok} alt="" width="32" height="32" />
+                            </a>
+                        </Link>
+                        <Link href="https://www.twitch.tv/glogocustoms">
+                            <a className={styles.footer__social_link}>
+                            <Image className={styles.footer__social} src={twitch} alt="" width="32" height="32" />
                             </a>
                         </Link>
                     </div>

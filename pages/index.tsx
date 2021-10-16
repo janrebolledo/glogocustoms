@@ -53,7 +53,7 @@ export default function Home({products}: IProductListProps) {
 
 export const products: IProduct[] = [
     {
-        id: "sign",
+        id: "GlogoXL",
         name: "Glogo XL",
         price: 150.00,
         image: lightbox,
@@ -61,7 +61,7 @@ export const products: IProduct[] = [
         url: '/api/products/lightbox'
     },
     {
-        id: "sign-2",
+        id: "Glogo",
         name: "Glogo",
         price: 100.00,
         image: lightbox,
