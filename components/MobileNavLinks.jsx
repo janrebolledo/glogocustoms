@@ -18,17 +18,17 @@ const LinksWrapper = styled.ul`
   width: 100%;
   flex-direction: column;
   position: fixed;
-  top: 120px;
+  top: 20vh;
   z-index: 100;
   left: 0;
   align-items: center;
 `;
 const LinkItem = styled.li`
   width: 100%;
-  padding: 0 1.1em;
+  padding: 0.5em 1.1em;
   color: #ffffff;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 72px;
   display: flex;
   margin-bottom: 10px;
   text-align: center;
@@ -54,16 +54,16 @@ export function MobileNavLinks() {
       {isOpen && (
         <LinksWrapper>
           <LinkItem>
-            <Link href="#">Home</Link>
+            <Link href="/">Home</Link>
           </LinkItem>
           <LinkItem>
-            <Link href="#">Store</Link>
+            <Link href="/shop">Store</Link>
           </LinkItem>
           <LinkItem>
-            <Link href="#">Partners</Link>
+            <Link href="/partners">Partners</Link>
           </LinkItem>
           <LinkItem>
-            <Link href="#">Contact</Link>
+            <Link href="/contact">Contact</Link>
           </LinkItem>
           <Marginer />
         </LinksWrapper>

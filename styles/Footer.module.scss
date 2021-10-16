@@ -36,6 +36,19 @@
     }
   }
 
+  &__logo_container > div:first-child {
+    @include mixins.mobile {
+      display: none !important;
+    }
+  }
+
+  &__logo_container > div:nth-child(2) {
+    display: none !important;
+    @include mixins.mobile {
+      display: block !important;
+    }
+  }
+
   &__container {
     display: flex;
     flex-direction: row;
@@ -50,7 +63,7 @@
     padding: 0 32px 0 32px;
     width: 100%;
     @include mixins.mobile {
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
     }
@@ -68,12 +81,24 @@
     text-decoration: none;
     @include mixins.mobile {
       padding: 15px;
-      font-size: x-large;
+      font-size: 32px;
     }
   }
 
   &__socials {
     flex-direction: row;
+    display: block;
+    @include mixins.mobile {
+      display: none;
+    }
+  }
+
+  &__socials__mobile {
+    flex-direction: row;
+    display: none;
+    @include mixins.mobile {
+      display: block;
+    }
   }
 
   &__social_link {
@@ -82,6 +107,6 @@
     }
   
     &__social {
-      width: 32px;
+      width: 42px;
     }
 }

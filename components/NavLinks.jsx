@@ -38,7 +38,7 @@ export default function NavLinks() {
     return <NavLinksContainer>
         <LinksWrapper>
             <LinkItem><Link href="/">Home</Link></LinkItem>
-            <LinkItem><Link href="/store">Store</Link></LinkItem>
+            <LinkItem><Link href="/shop">Store</Link></LinkItem>
             <LinkItem><Link href="/partners">Partners</Link></LinkItem>
             <LinkItem><Link href="/contact">Contact</Link></LinkItem>
         </LinksWrapper>

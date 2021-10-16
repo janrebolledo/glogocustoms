@@ -3,7 +3,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Button = styled.div`
-  z-index: 99;
+  z-index: 5;
   cursor: pointer;
   margin-top: 5px;
   margin-left: 15px;
@@ -23,7 +23,7 @@ const transition = { duration: 0.33 };
 export function MenuToggle({ toggle, isOpen }) {
   return (
     <Button onClick={toggle}>
-      <svg width="23" height="23" viewBox="0 0 23 23">
+      <svg width="48" height="48" viewBox="0 0 23 23">
         <Path
           animate={isOpen ? "open" : "closed"}
           initial={false}

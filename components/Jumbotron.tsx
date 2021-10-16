@@ -1,9 +1,10 @@
 import Image from 'next/image'
 import aquarium from '../public/aquarium.svg';
+import styles from '../styles/Jumbotron.module.scss'
 
 const Jumbotron = () => {
     return (< >
-        <div className="promotional-message">
+        <div className={styles.promotionalmessage}>
             <h3>CUSTOMIZED</h3>
             <h2>LIGHTING</h2>
             <p>For <strong>everyone</strong>.</p>

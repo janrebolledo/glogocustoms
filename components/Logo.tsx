@@ -10,7 +10,7 @@ const LogoWrapper = styled.div`
 const LogoImg = styled.div`
     width: 348px;
     height: 32px;
-    img {
+    Image {
         width: 100%;
         height: 100%;
     }
