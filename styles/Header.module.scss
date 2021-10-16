@@ -1,57 +1,14 @@
 @use 'mixins';
 
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 15%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: mixins.$color-black;
-
-  a {
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
+.RightSection > a:first-child {
+  @include mixins.mobile {
+    display: none;
   }
+}
 
-  a > span {
-    color: mixins.$color-teal;
-    margin-left: 10px;
-  }
-
-  &__logo {
-    height: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-  }
-
-  &__title {
-    padding: 0;
-    font-size: 24px;
-    margin: 0 0 0 20px;
-    text-decoration: none;
-    color: mixins.$color-teal;
-  }
-
-  &__links_container {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    flex-direction: row;
-    @include mixins.mobile {
-      display: none;
-    }
-  }
-
-  &__link {
-    text-decoration: none;
-    color: mixins.$color-teal;
-    padding:  0 15px 0 15px;
-    cursor: pointer;
+.RightSection > a:nth-child(2) {
+  display: none;
+  @include mixins.mobile {
+    display: block;
   }
 }
