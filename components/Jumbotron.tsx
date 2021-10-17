@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import aquarium from '../public/aquarium.svg';
 import styles from '../styles/Jumbotron.module.scss'
 
 const Jumbotron = () => {

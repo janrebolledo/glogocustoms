@@ -17,8 +17,10 @@ const NavbarContainer = styled.div`
     display: flex;
     align-items: center;
     padding: 0 3.5em;
-    background-color: #131313;
+    background-color: #13131350;
     flex-direction: row;
+    position: fixed;
+    z-index: 5;
     @media screen and (max-width: 980px) {
         height: 20vh;
     }
