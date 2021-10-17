@@ -20,21 +20,20 @@ SwiperCore.use([Autoplay,Pagination,Navigation]);
 export default function Carousel() {
   return (
     <div className={styles.carousel_container}>
-      <h1>Gallery</h1>
       <Swiper
         spaceBetween={0}
         slidesPerView={1}
         loop={true}
-        navigation={true}
+        // navigation
         pagination={{
           "clickable": true
         }}
         className="mySwiper"
       >
-        <SwiperSlide><Image alt="" src={carouselImage1} width="1200" height="1400"></Image></SwiperSlide>
-        <SwiperSlide><Image alt="" src={carouselImage2} width="1200" height="1400"></Image></SwiperSlide>
-        <SwiperSlide><Image alt="" src={carouselImage3} width="1200" height="1400"></Image></SwiperSlide>
-        <SwiperSlide><Image alt="" src={carouselImage4} width="1200" height="1400"></Image></SwiperSlide>
+        <SwiperSlide><img alt="" src={carouselImage1.src} /></SwiperSlide>
+        <SwiperSlide><img alt="" src={carouselImage2.src} /></SwiperSlide>
+        <SwiperSlide><img alt="" src={carouselImage3.src} /></SwiperSlide>
+        <SwiperSlide><img alt="" src={carouselImage4.src} /></SwiperSlide>
       </Swiper>
     </div>
   )

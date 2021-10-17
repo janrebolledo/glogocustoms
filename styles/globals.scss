@@ -86,6 +86,13 @@ h5 {
   grid-area: button;
 }
 
+// Swiper
+
+:root {
+  --swiper-theme-color: #6dffda !important;
+  --swiper-navigation-color: #6dffda !important;
+}
+
 // Snipcart
 
 #snipcart {

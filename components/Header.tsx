@@ -42,7 +42,7 @@ export default function Header() {
     const isMobile = useMediaQuery({ maxWidth: DeviceSize.mobile })
     const isTablet = useMediaQuery({ maxWidth: DeviceSize.tablet })
     return (
-        <NavbarContainer>
+        <NavbarContainer id="header">
             <LeftSection><Logo /></LeftSection>
             <MiddleSection>{!isMobile && <NavLinks />}</MiddleSection>
             <RightSection className={styles.RightSection}>

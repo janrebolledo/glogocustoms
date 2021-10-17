@@ -2,7 +2,8 @@ import ProductList from "../components/ProductList";
 import Contact from "../components/Contact";
 import Head from "next/head";
 import {IProduct} from "../components/Product";
-import lightbox from "../public/lightbox.jpg";
+import LightboxBlackFrame from "../public/Glogo Black Frame Mockup.gif";
+import LightboxWhiteFrame from "../public/Glogo White Frame Mockup.gif";
 import {GetStaticProps} from "next";
 import Jumbotron from "../components/Jumbotron";
 import Carousel from "../components/Carousel";
@@ -38,9 +39,9 @@ export default function Home({products}: IProductListProps) {
                 <meta property="twitter:image" content="https://www.glogocustoms.com/Social-Image.png"></meta>
             </Head>
             <main className="main">
+                <Carousel />
                 <Jumbotron />
                 <ProductList products={products}/>
-                <Carousel />
                 <Collections />
                 <Contact/>
             </main>
@@ -53,7 +54,7 @@ export const products: IProduct[] = [
         id: "GlogoXL",
         name: "Glogo XL",
         price: 150.00,
-        image: lightbox,
+        image: LightboxBlackFrame,
         description: "Made in the U.S.",
         url: '/api/products/lightbox'
     },
@@ -61,7 +62,7 @@ export const products: IProduct[] = [
         id: "Glogo",
         name: "Glogo",
         price: 100.00,
-        image: lightbox,
+        image: LightboxBlackFrame,
         description: "Made in the U.S.",
         url: '/api/products/lightbox'
     }

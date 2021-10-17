@@ -29,17 +29,20 @@ interface IProductProps {
 const Product = (props: IProductProps) => {
     return (
         <div className={styles.product}>
-            <div className={styles.product__image}>
-                <Image src={props.product.image} alt={props.product.image.src} />
-            </div>
+            <img className={styles.product__image} src={props.product.image.src} alt={props.product.image.src} />
             <div className={styles.product__info}>
                 <h2 className={styles.product__title}>{props.product.name}</h2>
                 <p className={styles.product__description}>{props.product.description}</p>
                 <div className={styles.product__options}>
                     <label>Quantity</label>
-                    <input id="quantity" type="number"></input>
+                    <input id="quantity" type="number" placeholder="0"></input>
                     <label>Frame color</label>
                     <select id="frame_color">
+                        <option value="Black">Black</option>
+                        <option value="White">White</option>
+                    </select>
+                    <label>Glass Color</label>
+                    <select id="glass_color">
                         <option value="Black">Black</option>
                         <option value="White">White</option>
                     </select>
@@ -53,11 +56,13 @@ const Product = (props: IProductProps) => {
                         data-item-price={props.product.price}
                         data-item-url={props.product.url}
                         data-item-image={props.product.image.src}
-                        data-item-custom1-name="Frame color"
+                        data-item-custom1-name="Frame Color"
                         data-item-custom1-options="Black|White"
-                        data-item-custom2-name="DISCLAIMER"
-                        data-item-custom2-type="readonly"
-                        data-item-custom2-value="Read our FAQ for info on custom glogos."
+                        data-item-custom2-name="Glass Color"
+                        data-item-custom2-options="Black|White"
+                        data-item-custom3-name="DISCLAIMER"
+                        data-item-custom3-type="readonly"
+                        data-item-custom3-value="Read our FAQ for info on colors and more."
                     >
                         Add to cart
                     </button>

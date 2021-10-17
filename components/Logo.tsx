@@ -10,9 +10,9 @@ const LogoWrapper = styled.div`
 const LogoImg = styled.div`
     width: 348px;
     height: 32px;
-    Image {
-        width: 100%;
-        height: 100%;
+    img {
+        width: 348px;
+        height: 32px;
     }
 `;
 const LogoText = styled.h2`
@@ -25,6 +25,6 @@ const LogoText = styled.h2`
 
 export default function Logo() {
     return <LogoWrapper>
-        <LogoImg><Image src={logo} alt="Logo" width="348px" height="32px"></Image></LogoImg>
+        <LogoImg><img src={logo.src} alt="Logo" id="logo" /></LogoImg>
     </LogoWrapper>
 }

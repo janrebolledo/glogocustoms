@@ -29,23 +29,14 @@
   }
 
   &__logo_container {
-    width: 100%;
+    img {
+      width: 120px;
+    }
     @include mixins.mobile {
       @include mixins.flex-centered;
-      width: 100%;
-    }
-  }
-
-  &__logo_container > div:first-child {
-    @include mixins.mobile {
-      display: none !important;
-    }
-  }
-
-  &__logo_container > div:nth-child(2) {
-    display: none !important;
-    @include mixins.mobile {
-      display: block !important;
+      img {
+        width: 256px;
+      }
     }
   }
 
@@ -88,17 +79,6 @@
   &__socials {
     flex-direction: row;
     display: block;
-    @include mixins.mobile {
-      display: none;
-    }
-  }
-
-  &__socials__mobile {
-    flex-direction: row;
-    display: none;
-    @include mixins.mobile {
-      display: block;
-    }
   }
 
   &__social_link {

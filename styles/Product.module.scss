@@ -4,12 +4,14 @@
   width: 100%;
   align-items: center;
   justify-content: center;
+  margin: 8px 0;
 
   &__info {
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 4%;
+    width: 100%;
   }
 
   &__title {
@@ -22,7 +24,7 @@
   &__description {
     grid-area: description;
     line-height: 1.75rem;
-    min-height: 175px;
+    min-height: 140px;
     @include mixins.mobile {
       min-height: 0;
     }
@@ -35,6 +37,7 @@
     margin-bottom: 8px;
     input, select {
       padding: 8px;
+      margin: 4px 0;
     }
   }
 
@@ -47,16 +50,10 @@
 
   &__image {
     grid-area: image;
-    max-width: 100%;
-    max-height: 100%;
     object-fit: fill;
     z-index: 1;
-
     @include mixins.mobile {
-      height: 300px;
-      max-height: 300px;
-      object-fit: contain;
-      margin-bottom: 30px;
+      width: 100%;
     }
   }
 
@@ -75,6 +72,7 @@
     background-color: mixins.$color-teal;
     color: white;
     position: relative;
+    cursor: pointer;
 
     &:hover {
       transition: 0.2s all;
@@ -101,9 +99,5 @@
 
   @include mixins.mobile {
     flex-direction: column;
-    .product__image {
-      height: 300px;
-      margin-bottom: 160px;
-    }
   }
 }
