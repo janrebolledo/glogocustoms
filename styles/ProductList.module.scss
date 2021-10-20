@@ -3,3 +3,10 @@
 .productlist {
   @include mixins.centered;
 }
+
+.productlist2 {
+  @include mixins.centered;
+  @include mixins.flex-centered;
+  display: flex;
+  flex-wrap: wrap;
+}
