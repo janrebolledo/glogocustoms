@@ -7,6 +7,9 @@
   margin: 8px;
   flex-direction: column;
   cursor: pointer;
+  @include mixins.mobile {
+    width: 100%;
+  }
 
   :hover > h2 {
     text-decoration: underline !important;

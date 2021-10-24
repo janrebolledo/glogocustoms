@@ -2,10 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import logo from '../public/Logo.png'
 import Image from "next/dist/client/image";
+import Link from "next/dist/client/link";
 
 const LogoWrapper = styled.div`
     display: flex;
     align-items: center;
+    cursor: pointer;
 `;
 const LogoImg = styled.div`
     width: 348px;
@@ -25,6 +27,8 @@ const LogoText = styled.h2`
 
 export default function Logo() {
     return <LogoWrapper>
+        <Link href="/">
         <LogoImg><img src={logo.src} alt="Logo" id="logo" /></LogoImg>
+        </Link>
     </LogoWrapper>
 }

@@ -1,8 +1,8 @@
-import ProductList from "../components/ProductList2";
+import ProductList from "../../components/ProductList";
 import Head from "next/head";
-import {IProduct} from "../components/Product";
-import LightboxBlackFrame from "../public/Glogo Black Frame Mockup.gif";
-import LightboxWhiteFrame from "../public/Glogo White Frame Mockup.gif";
+import {IProduct} from "../../components/Product";
+import LightboxBlackFrame from "../../public/Glogo Black Frame Mockup.gif";
+import LightboxWhiteFrame from "../../public/Glogo White Frame Mockup.gif";
 import {GetStaticProps} from "next";
 
 interface IProductListProps {
@@ -49,16 +49,7 @@ export const products: IProduct[] = [
         image: LightboxBlackFrame,
         description: "Made in the U.S.",
         url: '/products/gloxoxl'
-    },
-    {
-        id: "Glogo",
-        name: "Glogo",
-        price: 100.00,
-        image: LightboxBlackFrame,
-        description: "Made in the U.S.",
-        url: '/products/glogo'
     }
-
 ]
 
 export const getStaticProps: GetStaticProps = async (context) => {

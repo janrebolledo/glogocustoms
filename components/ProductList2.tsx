@@ -7,8 +7,11 @@ interface IProductListProps {
 
 const ProductList = (props: IProductListProps) => {
     return (
+        <div className={styles.shop}>
+            <h2>Shop</h2>
         <div className={styles.productlist2}>
             {props.products.map((product, index) => <Product product={product} key={index}/>)}
+        </div>
         </div>
     )
 }

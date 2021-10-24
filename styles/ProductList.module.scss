@@ -1,5 +1,9 @@
 @use 'mixins';
 
+.shop {
+  @include mixins.centered;
+}
+
 .productlist {
   @include mixins.centered;
 }

@@ -64,7 +64,7 @@ export const products: IProduct[] = [
         price: 100.00,
         image: LightboxBlackFrame,
         description: "Made in the U.S.",
-        url: '/api/products/glogo'
+        url: '/products/glogo'
     }
 
 ]
