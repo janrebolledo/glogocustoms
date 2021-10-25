@@ -5,9 +5,9 @@ import {IProduct} from "../components/Product";
 import LightboxBlackFrame from "../public/Glogo Black Frame Mockup.gif";
 import LightboxWhiteFrame from "../public/Glogo White Frame Mockup.gif";
 import {GetStaticProps} from "next";
-import Jumbotron from "../components/Jumbotron";
 import Carousel from "../components/Carousel";
 import Collections from "../components/Collections";
+import ViewMore from "../components/ViewShopBtn"
 
 interface IProductListProps {
     products: IProduct[]
@@ -40,8 +40,8 @@ export default function Home({products}: IProductListProps) {
             </Head>
             <main className="main">
                 <Carousel />
-                <Jumbotron />
                 <ProductList products={products}/>
+                <ViewMore />
                 <Collections />
                 <Contact/>
             </main>
@@ -56,7 +56,7 @@ export const products: IProduct[] = [
         price: 150.00,
         image: LightboxBlackFrame,
         description: "Made in the U.S.",
-        url: '/api/products/glogoxl'
+        url: '/products/glogoxl'
     },
     {
         id: "Glogo",

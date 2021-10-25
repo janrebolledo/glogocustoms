@@ -1,9 +1,14 @@
 @use 'mixins';
 
 .promotionalmessage {
-  margin-bottom: 100px;
-  margin-top: 25px;
   text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-shadow: 0px 0px 16px #00000080;
+  @include mixins.flex-centered;
+  flex-direction: column;
+  background: linear-gradient(0deg, rgba(109,255,218,.6) 0%, rgba(109,255,218,0) 100%);
 
   h3 {
     font-size: 20px;

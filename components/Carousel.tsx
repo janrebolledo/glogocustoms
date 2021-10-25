@@ -5,11 +5,14 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import Image from 'next/image'
-import carouselImage1 from '../public/lightboxes/image0.jpg'
-import carouselImage2 from '../public/lightboxes/PXL_20210925_010154795.jpg'
-import carouselImage3 from '../public/lightboxes/PXL_20211006_053135011.jpg'
-import carouselImage4 from '../public/lightboxes/PXL_20211006_235910478.jpg'
+import Image from 'next/image';
+import carouselImage1 from '../public/lightboxes/image0.jpg';
+import carouselImage2 from '../public/lightboxes/PXL_20210925_010154795.jpg';
+import carouselImage3 from '../public/lightboxes/PXL_20211006_053135011.jpg';
+import carouselImage4 from '../public/lightboxes/PXL_20211006_235910478.jpg';
+
+import Jumbotron from "../components/Jumbotron";
+
 
 import SwiperCore, {
   Autoplay,Pagination,Navigation
@@ -30,7 +33,7 @@ export default function Carousel() {
         }}
         className="mySwiper"
       >
-        <SwiperSlide><img alt="" src={carouselImage1.src} /></SwiperSlide>
+        <SwiperSlide><Jumbotron /><img alt="" src={carouselImage1.src} /></SwiperSlide>
         <SwiperSlide><img alt="" src={carouselImage2.src} /></SwiperSlide>
         <SwiperSlide><img alt="" src={carouselImage3.src} /></SwiperSlide>
         <SwiperSlide><img alt="" src={carouselImage4.src} /></SwiperSlide>

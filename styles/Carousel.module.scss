@@ -1,18 +1,12 @@
 @use 'mixins';
 
 .carousel_container {
-    width: 100vw;
-    max-width: 98vw;
-    margin-top: -100px;
+    @include mixins.centered;
     :root {
         --swiper-theme-color: #6dffda;
     }
     img {
-        height: 100vh;
-        width: 1920px;
-    }
-    @include mixins.mobile {
-        max-width: 100vw;
-        margin-top: -20vh;
+        height: 80vh;
+        width: 100%;
     }
 }
