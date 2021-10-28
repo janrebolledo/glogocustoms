@@ -36,3 +36,7 @@ $sequel: Sequel, Arial, Helvetica, sans-serif;
     @content;
   }
 }
+
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}

@@ -1,5 +1,5 @@
 @use 'mixins';
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800');
 @font-face {
   font-family: Sequel;
   src: url('../public/font/Sequel100Black-85.ttf');
@@ -7,7 +7,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 html, body {
@@ -47,6 +47,40 @@ h3,
 h4,
 h5 {
   color: mixins.$color-white;
+}
+
+h1 {
+  @include mixins.mobile {
+    font-size: 64px;
+  }
+}
+
+h2 {
+  @include mixins.mobile {
+    font-size: 52px;
+  }
+}
+
+h3 {
+  @include mixins.mobile {
+    font-size: 48px;
+  }
+}
+
+h4 {
+  @include mixins.mobile {
+    font-size: 42px;
+  }
+}
+
+h5 {
+  @include mixins.mobile {
+    font-size: 36px;
+  }
+}
+
+body {
+  font-size: clamp(100%, 1rem + 2vw, 24px);
 }
 
 .main {

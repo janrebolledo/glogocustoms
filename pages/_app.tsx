@@ -9,11 +9,9 @@ function MyApp({Component, pageProps}: AppProps) {
         <Header/>
         <Component {...pageProps} />
         <Footer/>
-        <Script src="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.js"/>
-        <div hidden id="snipcart" data-api-key="ODA2ODg4M2EtOTRjOS00MjFkLWE2MjgtZWI2YWI0NWQyY2M2NjM3Njc1MzM3MjEzOTQ5NTY4"></div>
-        <link rel="preconnect" href="https://app.snipcart.com"></link>
-        <link rel="preconnect" href="https://cdn.snipcart.com"></link>
-        <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.css" />
+        <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.css" />
+        <script async src="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.js"></script>
+        <div id="snipcart" data-config-modal-style="side" data-api-key="ODA2ODg4M2EtOTRjOS00MjFkLWE2MjgtZWI2YWI0NWQyY2M2NjM3Njc1MzM3MjEzOTQ5NTY4" hidden></div>
         <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
     </div>
 }

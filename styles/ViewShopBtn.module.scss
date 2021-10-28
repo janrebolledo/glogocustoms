@@ -17,6 +17,9 @@
     color: white;
     position: relative;
     text-decoration: none;
+    @include mixins.mobile {
+      font-size: 32px;
+    }
 
     &:hover {
       transition: 0.2s all;

@@ -70,23 +70,34 @@
 
   &__list > a {
     text-decoration: none;
+    margin: 6px 0;
+    font-size: 18px;
     @include mixins.mobile {
       padding: 15px;
-      font-size: 32px;
+      font-size: 42px;
     }
   }
 
   &__socials {
     flex-direction: row;
     display: block;
+    @include mixins.mobile {
+      margin-top: 48px;
+    }
   }
 
   &__social_link {
     width: 36px;
     margin: 12px;
+    @include mixins.mobile {
+      width: 72px;
+    }
     }
   
     &__social {
       width: 36px;
+      @include mixins.mobile {
+        width: 72px;
+      }
     }
 }

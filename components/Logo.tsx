@@ -3,7 +3,6 @@ import styled from "styled-components";
 import logo from '../public/Logo.png'
 import Image from "next/dist/client/image";
 import Link from "next/dist/client/link";
-
 const LogoWrapper = styled.div`
     display: flex;
     align-items: center;
