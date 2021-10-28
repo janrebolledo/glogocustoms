@@ -27,8 +27,8 @@ export default function Footer(){
                 <div className={styles.footer__list}>
                     <h5>Follow us on social media</h5>
                     <div className={styles.footer__socials}>
-                        <Link href="https://www.instagram.com/glogo_customs/">
-                            <a className={styles.footer__social_link} href="">
+                    <Link href="https://instagram.com/Glogo_Customs">
+                            <a className={styles.footer__social_link}>
                             <img className={styles.footer__social} src={instagram.src} alt=""/>
                             </a>
                         </Link>

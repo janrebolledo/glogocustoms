@@ -34,8 +34,6 @@ const Product = (props: IProductProps) => {
                 <h2 className={styles.product__title}>{props.product.name}</h2>
                 <p className={styles.product__description}>{props.product.description}</p>
                 <div className={styles.product__options}>
-                    <label>Quantity</label>
-                    <input id="quantity" type="number" placeholder="0"></input>
                     <label>Frame color</label>
                     <select id="frame_color">
                         <option value="Black">Black</option>

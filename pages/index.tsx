@@ -8,6 +8,7 @@ import {GetStaticProps} from "next";
 import Carousel from "../components/Carousel";
 import Collections from "../components/Collections";
 import ViewMore from "../components/ViewShopBtn"
+import Modal from "../components/Modal"
 
 interface IProductListProps {
     products: IProduct[]
@@ -39,6 +40,7 @@ export default function Home({products}: IProductListProps) {
                 <meta property="twitter:image" content="https://www.glogocustoms.com/Social-Image.png"></meta>
             </Head>
             <main className="main">
+                <Modal />
                 <Carousel />
                 <ProductList products={products}/>
                 <ViewMore />

@@ -2,7 +2,7 @@
 
 .modal {
     @include mixins.flex-centered;
-    position: sticky;
+    position: fixed;
     width: 100%;
     height: 100vh;
     z-index: 5;
@@ -14,15 +14,54 @@
         @include mixins.flex-centered;
         align-items: flex-start;
         background-color: #ffffff;
-        padding: 15px;
-        flex-direction: column;
-        width: 480px;
-        height: 220px;
+        padding: 32px;
+        flex-direction: row;
+        width: 600px;
+        height: 280px;
+        @include mixins.mobile {
+            height: 520px;
+        }
     }
 
     &__container > h1, h3, p {
         color: #000000;
-        margin: 5px;
+        margin: 5px 0;
         padding: 0;
     }
+
+    &__text {
+        color: #000000 !important;
+    }
+
+    &__heading {
+        color: #000000;
+        margin: 5px 0;
+    }
+
+    &__paragraph {
+        color: #000000;
+    }
+
+    &__text > h1, h3, p {
+        color: #000000;
+        margin: 5px 0;
+        padding: 0;
+    }
+
+    &__button {
+        border: none;
+        appearance: none;
+        -webkit-appearance: none;
+        cursor: pointer;
+        background-color: #00000000;
+        font-weight: 800;
+        font-size: 32px;
+        @include mixins.mobile {
+            font-size: 48px;
+        }
+    }
+}
+
+.modal-closed {
+    display: none;
 }
