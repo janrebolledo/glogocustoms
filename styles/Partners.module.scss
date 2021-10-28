@@ -13,6 +13,12 @@
         align-items: flex-start;
     }
 
+    h5 {
+        display: flex;
+        flex-direction: column;
+        margin: 12px 0;
+    }
+
     h5 > b {
         font-family: mixins.$sequel;
         color: mixins.$color-teal;

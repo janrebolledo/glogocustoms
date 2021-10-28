@@ -85,9 +85,9 @@ body {
 
 .main {
   background-color: mixins.$color-dark;
-  padding-top: 100px;
+  padding-top: 150px;
   @include mixins.mobile {
-    padding-top: 20vh;
+    padding-top: 25vh;
   }
 }
 
