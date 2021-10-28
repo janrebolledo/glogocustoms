@@ -2,11 +2,15 @@
 
 .carousel {
     @include mixins.centered;
-    @include mixins.flex-centered;
     height: 80vh;
     overflow: hidden;
     :root {
         --swiper-theme-color: #6dffda;
+    }
+    &__imageContainer {
+        height: 80vh;
+        overflow: hidden;
+        @include mixins.flex-centered;
     }
     img {
         width: 100%;
