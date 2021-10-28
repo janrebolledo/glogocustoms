@@ -22,7 +22,7 @@ SwiperCore.use([Autoplay,Pagination,Navigation]);
 
 export default function Carousel() {
   return (
-    <div className={styles.carousel_container}>
+    <div className={styles.carousel}>
       <Swiper
         spaceBetween={0}
         slidesPerView={1}
@@ -33,7 +33,7 @@ export default function Carousel() {
         }}
         className="mySwiper"
       >
-        <SwiperSlide><Jumbotron /><img alt="" src={carouselImage1.src} /></SwiperSlide>
+        <SwiperSlide><Jumbotron /><img className={styles.carousel__image} alt="" src={carouselImage1.src} /></SwiperSlide>
         <SwiperSlide><img alt="" src={carouselImage2.src} /></SwiperSlide>
         <SwiperSlide><img alt="" src={carouselImage3.src} /></SwiperSlide>
         <SwiperSlide><img alt="" src={carouselImage4.src} /></SwiperSlide>

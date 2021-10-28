@@ -9,14 +9,14 @@ export default function CollectionsSection() {
             <div className={styles.collection1}>
                 <div className={styles.collection_overlay}>
                     <h3>SHOP LIGHTBOXES</h3>
-                    <Link href=""><a className={styles.collection_button}>VIEW COLLECTION</a></Link>
+                    <Link href="/shop"><a className={styles.collection_button}>VIEW COLLECTION</a></Link>
                 </div>
                 <Image alt="" src={collectionImage} className={styles.collection_image}></Image>
             </div>
             <div className={styles.collection2}>
                 <div className={styles.collection_overlay}>
                     <h3>SHOP ALL</h3>
-                    <Link href=""><a className={styles.collection_button}>VIEW COLLECTION</a></Link>
+                    <Link href="/shop"><a className={styles.collection_button}>VIEW COLLECTION</a></Link>
                 </div>
                 <Image alt="" src={collectionImage} className={styles.collection_image}></Image>
             </div>
