@@ -33,10 +33,10 @@ export default function Carousel() {
         }}
         className="mySwiper"
       >
-        <SwiperSlide><Jumbotron /><img className={styles.carousel__image} alt="" src={carouselImage1.src} /></SwiperSlide>
-        <SwiperSlide><img alt="" src={carouselImage2.src} /></SwiperSlide>
-        <SwiperSlide><img alt="" src={carouselImage3.src} /></SwiperSlide>
-        <SwiperSlide><img alt="" src={carouselImage4.src} /></SwiperSlide>
+        <SwiperSlide><Jumbotron /><div className={styles.carousel__imageContainer}><img className={styles.carousel__image} alt="" src={carouselImage1.src} /></div></SwiperSlide>
+        <SwiperSlide><div className={styles.carousel__imageContainer}><img alt="" src={carouselImage2.src} /></div></SwiperSlide>
+        <SwiperSlide><div className={styles.carousel__imageContainer}><img alt="" src={carouselImage3.src} /></div></SwiperSlide>
+        <SwiperSlide><div className={styles.carousel__imageContainer}><img alt="" src={carouselImage4.src} /></div>s</SwiperSlide>
       </Swiper>
     </div>
   )
