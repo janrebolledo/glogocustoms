@@ -14,18 +14,6 @@ interface IProductProps {
     product: IProduct
 }
 
-// const button = document.querySelector('#starry-night')
-// const quantity = document.querySelector('#quantity')
-// quantity.addEventListener('change', () => {
-//   // Sets the default quantity when adding the item
-//   button.setAttribute('data-item-quantity', quantity.value)
-// })
-// const select = document.querySelector('#frame_color')
-// select.addEventListener('change', () => {
-//   // Sets the default frame color when adding the item
-//   button.setAttribute("data-item-custom1-value", select.value)
-// })
-
 const Product = (props: IProductProps) => {
     return (
         <div className={styles.product}>
@@ -35,12 +23,12 @@ const Product = (props: IProductProps) => {
                 <p className={styles.product__description}>{props.product.description}</p>
                 <div className={styles.product__options}>
                     <label>Frame color</label>
-                    <select id="frame_color">
+                    <select id="frame_color" onChange={ (event) => console.log("Frame color changed") }>
                         <option value="Black">Black</option>
                         <option value="White">White</option>
                     </select>
                     <label>Glass Color</label>
-                    <select id="glass_color">
+                    <select id="glass_color" onChange={ (event) => console.log("Glass Color changed") }>
                         <option value="Black">Black</option>
                         <option value="White">White</option>
                     </select>
