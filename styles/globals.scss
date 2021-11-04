@@ -122,32 +122,38 @@ body {
 
 // Modal
 
-.modal {
-  @include mixins.flex-centered;
-  position: fixed;
-  width: 100%;
-  height: 100vh;
+.ReactModal__Overlay--after-open {
   z-index: 5;
-  background-color: rgba(0, 0, 0, 0.452);
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  pointer-events: none;
-  opacity: 0;
-  animation: modal 0.3s ease 5s 1 forwards;
-  @include mixins.mobile {
-    height: auto;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@keyframes modal {
-  from {pointer-events: none; opacity: 0;}
-  to {pointer-events: all; opacity: 1;}
+.ReactModal__Content--after-open {
+  width: 600px;
+  height: 280px;
+  inset: unset !important;
+  display: flex;
+  align-items: flex-start;
 }
 
-.modal-closed {
-  display: none;
+.closeModal {
+  appearance: none;
+  border: none;
+  background-color: rgba($color: #000000, $alpha: 0.0);
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 16px;
+  cursor: pointer;
+}
+
+.modal-content > h2 {
+  color: #131313;
+  margin: 16px 0;
+}
+
+.ReactModal__Content--after-open > h2, p {
+  color: #131313;
 }
 
 // Swiper

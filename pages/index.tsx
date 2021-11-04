@@ -1,3 +1,4 @@
+import Modal from "react-modal";
 import ProductList from "../components/ProductList2";
 import Contact from "../components/Contact";
 import Head from "next/head";
@@ -8,13 +9,24 @@ import {GetStaticProps} from "next";
 import Carousel from "../components/Carousel";
 import Collections from "../components/Collections";
 import ViewMore from "../components/ViewShopBtn"
-// import Modal from "../components/Modal"
+import { useState } from "react";
+import React from "react";
 
 interface IProductListProps {
     products: IProduct[]
 }
 
+Modal.setAppElement('.app')
+
 export default function Home({products}: IProductListProps) {
+    const [modalIsOpen, setModalIsOpen] = useState(false)
+
+    React.useEffect (() => {
+        window.setTimeout (modalOpen, 8000);
+        function modalOpen() {
+            setModalIsOpen(true)
+        }
+    });
     return (
         <>
             <Head>
@@ -40,7 +52,14 @@ export default function Home({products}: IProductListProps) {
                 <meta property="twitter:image" content="https://www.glogocustoms.com/Social-Image.png"></meta>
             </Head>
             <main className="main">
-                {/* <Modal /> */}
+                {/* <button onClick={() => setModalIsOpen(true)}>button</button> */}
+                <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>
+                    <div className="modal-content">
+                    <h2>GET 5% OFF</h2>
+                    <p>Choose a <a href="/partners">partner code</a> at checkout to support a creator and get a discount on your purchase!</p>
+                    </div>
+                    <button onClick={() => setModalIsOpen(false)} className="closeModal">×</button>
+                </Modal>
                 <Carousel />
                 <ProductList products={products}/>
                 <ViewMore />

@@ -33,6 +33,7 @@
 
   p {
     margin: 8px;
+    color: #fdfdfd;
     @include mixins.mobile {
       font-size: 40px;
     }
