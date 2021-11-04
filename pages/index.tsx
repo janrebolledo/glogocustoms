@@ -11,6 +11,7 @@ import Collections from "../components/Collections";
 import ViewMore from "../components/ViewShopBtn"
 import { useState } from "react";
 import React from "react";
+import Link from "next/link"
 
 interface IProductListProps {
     products: IProduct[]
@@ -56,7 +57,7 @@ export default function Home({products}: IProductListProps) {
                 <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>
                     <div className="modal-content">
                     <h2>GET 5% OFF</h2>
-                    <p>Choose a <a href="/partners">partner code</a> at checkout to support a creator and get a discount on your purchase!</p>
+                    <p>Choose a <Link href="/partners">partner code</Link> at checkout to support a creator and get a discount on your purchase!</p>
                     </div>
                     <button onClick={() => setModalIsOpen(false)} className="closeModal">×</button>
                 </Modal>
