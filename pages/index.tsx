@@ -9,9 +9,9 @@ import {GetStaticProps} from "next";
 import Carousel from "../components/Carousel";
 import Collections from "../components/Collections";
 import ViewMore from "../components/ViewShopBtn"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import React from "react";
-import Link from "next/link"
+import Link from "next/link";
 
 interface IProductListProps {
     products: IProduct[]
@@ -22,12 +22,23 @@ Modal.setAppElement('.app')
 export default function Home({products}: IProductListProps) {
     const [modalIsOpen, setModalIsOpen] = useState(false)
 
-    React.useEffect (() => {
-        window.setTimeout (modalOpen, 8000);
-        function modalOpen() {
-            setModalIsOpen(true)
+    useEffect(() => {
+        if (!sessionStorage.popupModal) {
+          const timer = setTimeout(() => {
+            setModalIsOpen(true);
+            sessionStorage.popupModal = 1;
+          }, 2000);
+    
+          return () => clearTimeout(timer);
         }
-    });
+      }, []);
+
+    // useEffect (() => {
+    //     setTimeout (modalOpen, 8000);
+    //     function modalOpen() {
+    //         setModalIsOpen(true)
+    //     }
+    // });
     return (
         <>
             <Head>
