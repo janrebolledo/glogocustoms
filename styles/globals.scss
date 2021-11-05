@@ -135,6 +135,9 @@ body {
   inset: unset !important;
   display: flex;
   align-items: flex-start;
+  @include mixins.mobile {
+    height: auto;
+  }
 }
 
 .closeModal {
