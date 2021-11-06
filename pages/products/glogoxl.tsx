@@ -1,15 +1,16 @@
 import ProductList from "../../components/ProductList";
 import Head from "next/head";
-import {IProduct} from "../../components/Product";
+import { IProduct } from "../../components/Product";
 import LightboxBlackFrame from "../../public/Glogo Black Frame Mockup.gif";
 import LightboxWhiteFrame from "../../public/Glogo White Frame Mockup.gif";
-import {GetStaticProps} from "next";
+import { GetStaticProps } from "next";
+import { useEffect } from "react";
 
 interface IProductListProps {
     products: IProduct[]
 }
 
-export default function Home({products}: IProductListProps) {
+export default function Home({ products }: IProductListProps) {
     return (
         <>
             <Head>
@@ -35,7 +36,7 @@ export default function Home({products}: IProductListProps) {
                 <meta property="twitter:image" content="https://www.glogocustoms.com/Social-Image.png"></meta>
             </Head>
             <main className="main">
-                <ProductList products={products}/>
+                <ProductList products={products} />
             </main>
         </>
     )

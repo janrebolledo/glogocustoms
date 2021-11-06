@@ -21,21 +21,10 @@ const Product = (props: IProductProps) => {
             <div className={styles.product__info}>
                 <h2 className={styles.product__title}>{props.product.name}</h2>
                 <p className={styles.product__description}>{props.product.description}</p>
-                <div className={styles.product__options}>
-                    <label>Frame color</label>
-                    <select id="frame_color" onChange={ (event) => console.log("Frame color changed") }>
-                        <option value="Black">Black</option>
-                        <option value="White">White</option>
-                    </select>
-                    <label>Glass Color</label>
-                    <select id="glass_color" onChange={ (event) => console.log("Glass Color changed") }>
-                        <option value="Black">Black</option>
-                        <option value="White">White</option>
-                    </select>
-                </div>
                 <div className="product__price-button-container">
                     <div className={styles.product__price}>${props.product.price.toFixed(2)}</div>
                     <button
+                        id="snipcart-product"
                         className={`snipcart-add-item ${styles.product__button}`}
                         data-item-id={props.product.id}
                         data-item-name={props.product.name}
