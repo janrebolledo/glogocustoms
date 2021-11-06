@@ -47,6 +47,7 @@ export const products: IProduct[] = [
         name: "Glogo XL",
         price: 150.00,
         image: LightboxBlackFrame,
+        image2: LightboxWhiteFrame,
         description: "Made in the U.S.",
         url: '/products/glogoxl'
     },
@@ -55,6 +56,7 @@ export const products: IProduct[] = [
         name: "Glogo",
         price: 100.00,
         image: LightboxBlackFrame,
+        image2: LightboxWhiteFrame,
         description: "Made in the U.S.",
         url: '/products/glogo'
     }

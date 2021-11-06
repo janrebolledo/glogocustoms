@@ -1,10 +1,10 @@
 @use 'mixins';
 .product {
   display: flex;
-  width: 49.5%;
+  width: 46.8%;
   align-items: center;
   justify-content: center;
-  margin: 2px;
+  margin: 0 16px;
   flex-direction: column;
   cursor: pointer;
   @include mixins.mobile {
@@ -119,5 +119,19 @@
 
   @include mixins.mobile {
     flex-direction: column;
+  }
+}
+.carousel {
+  @include mixins.centered;
+  width: 100%;
+  :root {
+      --swiper-theme-color: #6dffda;
+  }
+  &__imageContainer {
+      overflow: hidden;
+      @include mixins.flex-centered;
+  }
+  img {
+      width: 100%;
   }
 }

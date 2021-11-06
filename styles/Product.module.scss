@@ -102,3 +102,18 @@
     flex-direction: column;
   }
 }
+
+.carousel {
+  @include mixins.centered;
+  width: 50%;
+  :root {
+      --swiper-theme-color: #6dffda;
+  }
+  &__imageContainer {
+      overflow: hidden;
+      @include mixins.flex-centered;
+  }
+  img {
+      width: 100%;
+  }
+}
