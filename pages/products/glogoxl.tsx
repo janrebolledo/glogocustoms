@@ -49,7 +49,7 @@ export const products: IProduct[] = [
         price: 150.00,
         image: LightboxBlackFrame,
         image2: LightboxWhiteFrame,
-        description: "Made in the U.S.",
+        description: "Made in the U.S. 12 inches by 12 inches",
         url: '/products/gloxoxl'
     }
 ]

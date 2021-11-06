@@ -14,6 +14,7 @@ import website from '../public/Website Icon.png'
 
 import CarterPulse from '../public/partners/CPLogo.png'
 import Jan from '../public/partners/Jan.jpg'
+import Guwop from '../public/partners/Guwop.jpg'
 
 export default function Partners() {
     return (
@@ -21,16 +22,18 @@ export default function Partners() {
             <h1>Partners</h1>
             <div className={styles.partners__container}>
             <div className={styles.partners__card}>
-                    <Image alt="" src={CarterPulse} width="180" height="180" ></Image>
+                    <img alt="" src={CarterPulse.src} />
                     <h5><b>Carter Pulse</b> <i>Launch Partner</i></h5>
+                    <p>Code: CarterPulse</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://carterpulse.com"><a><Image alt="" src={website} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com/CarterPulse"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={Jan} width="180" height="180" ></Image>
+                    <img alt="" src={Jan.src} />
                     <h5><b>Jan</b> <i>Launch Partner</i></h5>
+                    <p>Code: Jan</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://janrebolledo.com"><a><Image alt="" src={website} width="32" height="32" ></Image></a></Link>
                         <Link href="https://instagram.com/janconcepts"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
@@ -38,8 +41,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Jeff</b> <i>Launch Partner</i></h5>
+                    <p>Code: Jeff</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://twitter.com/jeffthemvp"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
                         <Link href="https://www.youtube.com/channel/UC8ei2fsnEytL-D5UJa1CaYw"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
@@ -48,8 +52,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Frostizy</b> <i>Launch Partner</i></h5>
+                    <p>Code: Frostizy</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://twitter.com/Frostizy"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
                         <Link href="https://www.youtube.com/user/Imfrostizy"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
@@ -58,8 +63,20 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={Guwop.src} />
+                    <h5><b>Guwop</b> <i>Launch Partner</i></h5>
+                    <p>Code: Guwop</p>
+                    <div className={styles.partners__socials}>
+                        <Link href="https://www.instagram.com/xtraguwop/"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://www.twitter.com/gnwop/"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://www.youtube.com/channel/UCc3VcxPP9L7kcNoWjgAZN8Q"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://www.twitch.tv/XTRAGuwop"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
+                    </div>
+                </div>
+                <div className={styles.partners__card}>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
+                    <p>Code: Code</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -68,8 +85,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
+                    <p>Code: Code</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -78,8 +96,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
+                    <p>Code: Code</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -88,8 +107,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
+                    <p>Code: Code</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -98,8 +118,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
+                    <p>Code: Code</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -108,8 +129,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
+                    <p>Code: Code</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -118,8 +140,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
+                    <p>Code: Code</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -128,8 +151,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
+                    <p>Code: Code</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -138,8 +162,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
+                    <p>Code: Code</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -148,8 +173,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
+                    <p>Code: Code</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -158,8 +184,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
+                    <p>Code: Code</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -168,8 +195,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
+                    <p>Code: Code</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -178,8 +206,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
+                    <p>Code: Code</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -188,8 +217,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
+                    <p>Code: Code</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -198,8 +228,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
+                    <p>Code: Code</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -208,8 +239,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
+                    <p>Code: Code</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -218,8 +250,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
+                    <p>Code: Code</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -228,8 +261,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
+                    <p>Code: Code</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -238,8 +272,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
+                    <p>Code: Code</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -248,18 +283,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
+                    <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
-                    <div className={styles.partners__socials}>
-                        <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://youtube.com"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitch.tv"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
-                    </div>
-                </div>
-                <div className={styles.partners__card}>
-                    <Image alt="" src={exampleImage} width="180" height="180" ></Image>
-                    <h5><b>Partner</b> <i>Launch Partner</i></h5>
+                    <p>Code: Code</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>

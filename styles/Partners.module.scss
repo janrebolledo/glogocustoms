@@ -16,7 +16,8 @@
     h5 {
         display: flex;
         flex-direction: column;
-        margin: 12px 0;
+        margin: 12px 0 0 0;
+        font-size: 16px;
     }
 
     h5 > b {
@@ -34,6 +35,18 @@
         width: 180px;
         height: 300px;
         margin: 5px;
+        @include mixins.mobile {
+            width: 80%;
+            height: auto;
+        }
+        p {
+            font-size: 12px;
+            margin-bottom: 12px;
+        }
+    }
+
+    &__image {
+        width: 100%;
     }
 
     &__socials {
