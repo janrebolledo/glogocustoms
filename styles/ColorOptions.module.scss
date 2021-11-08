@@ -3,7 +3,7 @@
 .ColorOptions {
     @include mixins.centered;
     img {
-        width: 100%;
+        width: 90%;
     }
     @include mixins.mobile {
         padding: 8%;
