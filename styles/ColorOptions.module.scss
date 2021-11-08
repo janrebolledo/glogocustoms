@@ -1,0 +1,11 @@
+@use 'mixins';
+
+.ColorOptions {
+    @include mixins.centered;
+    img {
+        width: 100%;
+    }
+    @include mixins.mobile {
+        padding: 8%;
+    }
+}

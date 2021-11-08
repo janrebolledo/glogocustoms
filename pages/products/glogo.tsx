@@ -4,6 +4,7 @@ import {IProduct} from "../../components/Product";
 import LightboxBlackFrame from "../../public/Glogo Black Frame Mockup.gif";
 import LightboxWhiteFrame from "../../public/Glogo White Frame Mockup.gif";
 import {GetStaticProps} from "next";
+import ColorOptions from "../../components/ColorOptions"
 
 interface IProductListProps {
     products: IProduct[]
@@ -36,6 +37,7 @@ export default function Home({products}: IProductListProps) {
             </Head>
             <main className="main">
                 <ProductList products={products}/>
+                <ColorOptions />
             </main>
         </>
     )

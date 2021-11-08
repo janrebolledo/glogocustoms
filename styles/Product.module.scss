@@ -17,7 +17,6 @@
   &__title {
     margin: 0;
     grid-area: title;
-    font-size: 32px;
     font-weight: bold;
   }
 
@@ -106,6 +105,9 @@
 .carousel {
   @include mixins.centered;
   width: 50%;
+  @include mixins.mobile {
+    width: 100%;
+  }
   :root {
       --swiper-theme-color: #6dffda;
   }
