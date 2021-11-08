@@ -1,17 +1,34 @@
+import Modal from "react-modal";
 import ProductList from "../../components/ProductList";
 import Head from "next/head";
-import { IProduct } from "../../components/Product";
+import {IProduct} from "../../components/Product";
 import LightboxBlackFrame from "../../public/Glogo Black Frame Mockup.gif";
 import LightboxWhiteFrame from "../../public/Glogo White Frame Mockup.gif";
-import { GetStaticProps } from "next";
-import { useEffect } from "react";
+import {GetStaticProps} from "next";
 import ColorOptions from "../../components/ColorOptions"
+import React from "react";
+import { useState, useEffect } from "react";
+import Link from "next/link";
 
 interface IProductListProps {
     products: IProduct[]
 }
 
-export default function Home({ products }: IProductListProps) {
+Modal.setAppElement('.app')
+
+export default function Home({products}: IProductListProps) {
+    const [modalIsOpen, setModalIsOpen] = useState(false)
+
+    useEffect(() => {
+        if (!sessionStorage.popupModal) {
+          const timer = setTimeout(() => {
+            setModalIsOpen(true);
+            sessionStorage.popupModal = 1;
+          }, 2000);
+    
+          return () => clearTimeout(timer);
+        }
+      }, []);
     return (
         <>
             <Head>
@@ -37,7 +54,15 @@ export default function Home({ products }: IProductListProps) {
                 <meta property="twitter:image" content="https://www.glogocustoms.com/Social-Image.png"></meta>
             </Head>
             <main className="main">
-                <ProductList products={products} />
+                {/* <button onClick={() => setModalIsOpen(true)}>button</button> */}
+            <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>
+                    <div className="modal-content">
+                    <h2>GET 5% OFF</h2>
+                    <p>Choose a <Link href="/partners">partner code</Link> at checkout to support a creator and get a discount on your purchase!</p>
+                    </div>
+                    <button onClick={() => setModalIsOpen(false)} className="closeModal">×</button>
+                </Modal>
+                <ProductList products={products}/>
                 <ColorOptions />
             </main>
         </>
