@@ -49,7 +49,8 @@ export const products: IProduct[] = [
         image: LightboxBlackFrame,
         image2: LightboxWhiteFrame,
         description: "Made in the U.S.",
-        url: '/products/glogoxl'
+        url: '/products/glogoxl',
+        weight: 1814.37
     },
     {
         id: "Glogo",
@@ -58,7 +59,8 @@ export const products: IProduct[] = [
         image: LightboxBlackFrame,
         image2: LightboxWhiteFrame,
         description: "Made in the U.S.",
-        url: '/products/glogo'
+        url: '/products/glogo',
+        weight: 1360.78
     }
 
 ]

@@ -50,7 +50,8 @@ export const products: IProduct[] = [
         image: LightboxBlackFrame,
         image2: LightboxWhiteFrame,
         description: "Made in the U.S. 12 inches by 12 inches",
-        url: '/products/gloxoxl'
+        url: '/products/gloxoxl',
+        weight: 1814.37
     }
 ]
 

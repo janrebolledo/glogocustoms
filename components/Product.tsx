@@ -13,6 +13,7 @@ export interface IProduct {
     description: string
     image: StaticImageData
     image2: StaticImageData
+    weight: number
 }
 
 interface IProductProps {
@@ -55,6 +56,7 @@ const Product = (props: IProductProps) => {
                         data-item-price={props.product.price}
                         data-item-url={props.product.url}
                         data-item-image={props.product.image.src}
+                        data-item-weight={props.product.weight}
                         data-item-custom1-name="Frame Color"
                         data-item-custom1-options="Black|White"
                         data-item-custom2-name="Glass Color"
