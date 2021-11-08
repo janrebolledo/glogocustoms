@@ -60,7 +60,7 @@ const Product = (props: IProductProps) => {
                         data-item-custom1-name="Frame Color"
                         data-item-custom1-options="Black|White"
                         data-item-custom2-name="Glass Color"
-                        data-item-custom2-options="Black|White"
+                        data-item-custom2-options="Sweet Pea|Vintage Blush|Apple Red|Poppy Red|Paprika|Colonial Red|Magenta|Claret Wine|Cinnamon|Harvest Peach|Rustic Orange|Fire Orange|Strawflower|Summer Squash|Lemon Grass|Green Apple|Leafy Green|Moss Green|Eden|Oregano|Hunt Club Green|Deep Forest|Vintage Teal|Seaside|Aqua|French Blue|Oasis Blue|Lagoon|Midnight Blue|Slate Blue|Windflower Blue|Ink Blue|French Lilac|Silver Lilac|Augbergine|Blossim White|Heirloom White|Ivory Silk|Smokey Beige|Fossil|Stone Gray|Granite|Charcoal Gray|London Gray|Warm Caramel|Nutmeg|Espresso|Dark Walnut|Canyon Black"
                         data-item-custom3-name="DISCLAIMER"
                         data-item-custom3-type="readonly"
                         data-item-custom3-value="Read our FAQ for info on colors and more."
