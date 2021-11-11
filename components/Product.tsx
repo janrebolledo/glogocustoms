@@ -57,13 +57,15 @@ const Product = (props: IProductProps) => {
                         data-item-url={props.product.url}
                         data-item-image={props.product.image.src}
                         data-item-weight={props.product.weight}
-                        data-item-custom1-name="Frame Color"
-                        data-item-custom1-options="Black|White"
-                        data-item-custom2-name="Glass Color"
-                        data-item-custom2-options="Sweet Pea|Vintage Blush|Apple Red|Poppy Red|Paprika|Colonial Red|Magenta|Claret Wine|Cinnamon|Harvest Peach|Rustic Orange|Fire Orange|Strawflower|Summer Squash|Lemon Grass|Green Apple|Leafy Green|Moss Green|Eden|Oregano|Hunt Club Green|Deep Forest|Vintage Teal|Seaside|Aqua|French Blue|Oasis Blue|Lagoon|Midnight Blue|Slate Blue|Windflower Blue|Ink Blue|French Lilac|Silver Lilac|Augbergine|Blossim White|Heirloom White|Ivory Silk|Smokey Beige|Fossil|Stone Gray|Granite|Charcoal Gray|London Gray|Warm Caramel|Nutmeg|Espresso|Dark Walnut|Canyon Black"
-                        data-item-custom3-name="DISCLAIMER"
-                        data-item-custom3-type="readonly"
-                        data-item-custom3-value="Read our FAQ for info on colors and more."
+                        data-item-custom1-name="Size"
+                        data-item-custom1-options="8″x8″|12″x12″[+50.00]"
+                        data-item-custom2-name="Frame Color"
+                        data-item-custom2-options="Black|White"
+                        data-item-custom3-name="Glass Color"
+                        data-item-custom3-options="Sweet Pea|Vintage Blush|Apple Red|Poppy Red|Paprika|Colonial Red|Magenta|Claret Wine|Cinnamon|Harvest Peach|Rustic Orange|Fire Orange|Strawflower|Summer Squash|Lemon Grass|Green Apple|Leafy Green|Moss Green|Eden|Oregano|Hunt Club Green|Deep Forest|Vintage Teal|Seaside|Aqua|French Blue|Oasis Blue|Lagoon|Midnight Blue|Slate Blue|Windflower Blue|Ink Blue|French Lilac|Silver Lilac|Augbergine|Blossim White|Heirloom White|Ivory Silk|Smokey Beige|Fossil|Stone Gray|Granite|Charcoal Gray|London Gray|Warm Caramel|Nutmeg|Espresso|Dark Walnut|Canyon Black"
+                        data-item-custom4-name="DISCLAIMER"
+                        data-item-custom4-type="readonly"
+                        data-item-custom4-value="Read our FAQ for info on colors and more."
                     >
                         Add to cart
                     </button>

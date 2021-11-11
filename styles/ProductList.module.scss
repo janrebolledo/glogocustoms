@@ -4,9 +4,25 @@
   @include mixins.centered;
 }
 
+.shopcollection {
+  width: 100%;
+  margin-top: -180px;
+  background-image: url('../public/lightboxes/_MG_2448.jpg');
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 30vh;
+  margin-bottom: 10vh;
+  @include mixins.flex-centered;
+  &__heading {
+    @include mixins.centered;
+    margin-top: 10vh;
+  }
+}
+
 .productlist {
   @include mixins.centered;
-  min-height: 60vh
+  min-height: 60vh;
 }
 
 .productlist2 {

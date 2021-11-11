@@ -12,6 +12,7 @@ import ViewMore from "../components/ViewShopBtn"
 import { useState, useEffect } from "react";
 import React from "react";
 import Link from "next/link";
+import Jumbotron from "../components/Jumbotron";
 
 interface IProductListProps {
     products: IProduct[]
@@ -72,6 +73,7 @@ export default function Home({products}: IProductListProps) {
                     </div>
                     <button onClick={() => setModalIsOpen(false)} className="closeModal">×</button>
                 </Modal> */}
+                <Jumbotron />
                 <Carousel />
                 <ProductList products={products}/>
                 <ViewMore />
@@ -86,14 +88,13 @@ export const products: IProduct[] = [
     {
         id: "Glogo",
         name: "Glogo",
-        price: 150.00,
+        price: 100.00,
         image: LightboxBlackFrame,
         image2: LightboxWhiteFrame,
         description: "Made in the U.S.",
         url: '/products/glogo',
         weight: 1814.37
     }
-
 ]
 
 export const getStaticProps: GetStaticProps = async (context) => {

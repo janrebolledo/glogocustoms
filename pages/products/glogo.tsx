@@ -76,9 +76,9 @@ export const products: IProduct[] = [
         price: 100.00,
         image: LightboxBlackFrame,
         image2: LightboxWhiteFrame,
-        description: "Made in the U.S.",
+        description: "Made in the U.S. Compatible with Alexa and Google Assistant",
         url: '/products/glogo',
-        weight: 1360.78
+        weight: 1814.37
     }
 ]
 
