@@ -2,13 +2,13 @@
 
 .carousel {
     @include mixins.centered;
-    height: 80vh;
+    height: 65vh;
     overflow: hidden;
     :root {
         --swiper-theme-color: #6dffda;
     }
     &__imageContainer {
-        height: 80vh;
+        height: 65vh;
         overflow: hidden;
         @include mixins.flex-centered;
     }

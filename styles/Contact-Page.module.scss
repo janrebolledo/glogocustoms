@@ -14,11 +14,13 @@
 .form > label input textarea {
     border: none;
     appearance: none;
+    -webkit-appearance: none;
 }
 
 .input {
     margin: 16px 0;
     padding: 15px;
+    font-size: 32px;
 }
 
 .textarea {
