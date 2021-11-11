@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 
 import Image from 'next/image';
 import carouselImage1 from '../public/lightboxes/_MG_2337.jpg';
@@ -32,6 +33,7 @@ export default function Carousel() {
           "clickable": true
         }}
         className="mySwiper"
+        autoplay
       >
         <SwiperSlide><Jumbotron /><div className={styles.carousel__imageContainer}><img className={styles.carousel__image} alt="" src={carouselImage1.src} /></div></SwiperSlide>
         <SwiperSlide><div className={styles.carousel__imageContainer}><img alt="" src={carouselImage2.src} /></div></SwiperSlide>

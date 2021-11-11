@@ -84,24 +84,14 @@ export default function Home({products}: IProductListProps) {
 
 export const products: IProduct[] = [
     {
-        id: "GlogoXL",
-        name: "Glogo XL",
+        id: "Glogo",
+        name: "Glogo",
         price: 150.00,
         image: LightboxBlackFrame,
         image2: LightboxWhiteFrame,
         description: "Made in the U.S.",
-        url: '/products/glogoxl',
-        weight: 1814.37
-    },
-    {
-        id: "Glogo",
-        name: "Glogo",
-        price: 100.00,
-        image: LightboxBlackFrame,
-        image2: LightboxWhiteFrame,
-        description: "Made in the U.S.",
         url: '/products/glogo',
-        weight: 1360.78
+        weight: 1814.37
     }
 
 ]
