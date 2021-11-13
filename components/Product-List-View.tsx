@@ -35,7 +35,6 @@ const Product = (props: IProductProps) => {
                     spaceBetween={0}
                     slidesPerView={1}
                     loop={true}
-                    navigation
                     pagination={{ clickable: true }}
                     className="mySwiper"
                 >

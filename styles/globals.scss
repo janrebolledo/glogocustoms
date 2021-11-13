@@ -120,6 +120,45 @@ body {
   grid-area: button;
 }
 
+// Button
+
+.button {
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 6px 20px;
+  border: none;
+  background-color: mixins.$color-teal;
+  color: white;
+  position: relative;
+  text-decoration: none;
+  @include mixins.mobile {
+    font-size: 32px;
+  }
+
+  &:hover {
+    transition: 0.2s all;
+    &:before {
+      transform: scale(1.15, 1.4);
+    }
+  }
+
+  &:before {
+    content: ' ';
+    position: absolute;
+    background-color: mixins.$color-teal;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    transform: scale(1);
+    transition: all 0.3s cubic-bezier(0.16, 0.8, 0.66, 1.54);
+  }
+}
+
 // Modal
 
 .ReactModal__Overlay--after-open {
@@ -131,7 +170,7 @@ body {
 
 .ReactModal__Content--after-open {
   width: 600px;
-  height: 280px;
+  height: 360px;
   inset: unset !important;
   display: flex;
   align-items: flex-start;
@@ -149,6 +188,10 @@ body {
   padding-top: 16px;
   cursor: pointer;
   color: #131313;
+}
+
+.modal-content {
+  padding-left: 16px;
 }
 
 .modal-content > h2 {

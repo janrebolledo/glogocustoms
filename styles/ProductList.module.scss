@@ -1,6 +1,7 @@
 @use 'mixins';
 
 .shop {
+  margin-top: 5vh;
   @include mixins.centered;
 }
 

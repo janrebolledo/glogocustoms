@@ -15,6 +15,8 @@ import website from '../public/Website Icon.png'
 import CarterPulse from '../public/partners/CPLogo.png'
 import Jan from '../public/partners/Jan.jpg'
 import Guwop from '../public/partners/Guwop.jpg'
+import Frostizy from '../public/partners/Frostizy.jpg'
+import Girly from '../public/partners/Girly.png'
 
 export default function Partners() {
     return (
@@ -52,7 +54,7 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <img alt="" src={exampleImage.src} />
+                    <img alt="" src={Frostizy.src} />
                     <h5><b>Frostizy</b> <i>Launch Partner</i></h5>
                     <p>Code: Frostizy</p>
                     <div className={styles.partners__socials}>
@@ -74,25 +76,25 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <img alt="" src={exampleImage.src} />
-                    <h5><b>Partner</b> <i>Launch Partner</i></h5>
-                    <p>Code: Code</p>
+                    <img alt="" src={Girly.src} />
+                    <h5><b>Girly</b> <i>Launch Partner</i></h5>
+                    <p>Code: Girly</p>
                     <div className={styles.partners__socials}>
-                        <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://youtube.com"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitch.tv"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://www.instagram.com/imgirlytv/"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://twitter.com/ImGirlyTV"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://www.tiktok.com/@imgirlytv?"><a><Image alt="" src={tiktok} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://www.twitch.tv/imgirlytv"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
                     </div>
                 </div>
                 <div className={styles.partners__card}>
                     <img alt="" src={exampleImage.src} />
-                    <h5><b>Partner</b> <i>Launch Partner</i></h5>
-                    <p>Code: Code</p>
+                    <h5><b>Adrianah Lee</b> <i>Launch Partner</i></h5>
+                    <p>Code: Adrianah Lee</p>
                     <div className={styles.partners__socials}>
-                        <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://youtube.com"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitch.tv"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://twitter.com/AdrianahLee"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://www.youtube.com/channel/UC8QAjn64hfQgg9PVMxR4VuA"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://www.tiktok.com/@adrianahlee?"><a><Image alt="" src={tiktok} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://www.twitch.tv/adrianahlee"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
                     </div>
                 </div>
                 <div className={styles.partners__card}>
