@@ -1,4 +1,5 @@
 import ProductList from "../components/ProductList2";
+import ShopCollection from "../components/ShopCollection";
 import Head from "next/head";
 import {IProduct} from "../components/Product";
 import LightboxBlackFrame from "../public/Glogo Black Frame Mockup.gif";
@@ -35,6 +36,7 @@ export default function Home({products}: IProductListProps) {
                 <meta property="twitter:image" content="https://www.glogocustoms.com/Social-Image.png"></meta>
             </Head>
             <main className="main">
+                <ShopCollection />
                 <ProductList products={products}/>
             </main>
         </>

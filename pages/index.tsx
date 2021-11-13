@@ -21,25 +21,6 @@ interface IProductListProps {
 Modal.setAppElement('.app')
 
 export default function Home({products}: IProductListProps) {
-    // const [modalIsOpen, setModalIsOpen] = useState(false)
-
-    // useEffect(() => {
-    //     if (!sessionStorage.popupModal) {
-    //       const timer = setTimeout(() => {
-    //         setModalIsOpen(true);
-    //         sessionStorage.popupModal = 1;
-    //       }, 2000);
-    
-    //       return () => clearTimeout(timer);
-    //     }
-    //   }, []);
-
-    // useEffect (() => {
-    //     setTimeout (modalOpen, 8000);
-    //     function modalOpen() {
-    //         setModalIsOpen(true)
-    //     }
-    // });
     return (
         <>
             <Head>
@@ -65,14 +46,6 @@ export default function Home({products}: IProductListProps) {
                 <meta property="twitter:image" content="https://www.glogocustoms.com/Social-Image.png"></meta>
             </Head>
             <main className="main">
-                {/* <button onClick={() => setModalIsOpen(true)}>button</button> */}
-                {/* <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>
-                    <div className="modal-content">
-                    <h2>GET 5% OFF</h2>
-                    <p>Choose a <Link href="/partners">partner code</Link> at checkout to support a creator and get a discount on your purchase!</p>
-                    </div>
-                    <button onClick={() => setModalIsOpen(false)} className="closeModal">×</button>
-                </Modal> */}
                 <Jumbotron />
                 <Carousel />
                 <ProductList products={products}/>
