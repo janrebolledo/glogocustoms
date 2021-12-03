@@ -17,6 +17,7 @@ import Jan from '../public/partners/Jan.jpg'
 import Guwop from '../public/partners/Guwop.jpg'
 import Frostizy from '../public/partners/Frostizy.jpg'
 import Girly from '../public/partners/Girly.png'
+import Aurora from '../public/partners/Aurora.png'
 
 export default function Partners() {
     return (
@@ -69,10 +70,10 @@ export default function Partners() {
                     <h5><b>Guwop</b> <i>Launch Partner</i></h5>
                     <p>Code: Guwop</p>
                     <div className={styles.partners__socials}>
-                        <Link href="https://www.instagram.com/xtraguwop/"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://www.instagram.com/https://www.instagram.com/jamescameron_00/"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://www.twitter.com/gnwop/"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
                         <Link href="https://www.youtube.com/channel/UCc3VcxPP9L7kcNoWjgAZN8Q"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://www.twitch.tv/XTRAGuwop"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://www.twitch.tv/guwop1x"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
                     </div>
                 </div>
                 <div className={styles.partners__card}>
@@ -98,14 +99,14 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <img alt="" src={exampleImage.src} />
-                    <h5><b>Partner</b> <i>Launch Partner</i></h5>
-                    <p>Code: Code</p>
+                    <img alt="" src={Aurora.src} />
+                    <h5><b>Aurora</b> <i>Launch Partner</i></h5>
+                    <p>Code: Aurora</p>
                     <div className={styles.partners__socials}>
-                        <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://youtube.com"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitch.tv"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://twitter.com/AuroraaTW"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://www.youtube.com/c/auroralight"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://www.twitch.tv/auroralight"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://www.tiktok.com/@aurora_lightzz?lang=en"><a><Image alt="" src={tiktok} width="32" height="32" ></Image></a></Link>
                     </div>
                 </div>
                 <div className={styles.partners__card}>

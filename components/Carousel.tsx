@@ -10,7 +10,7 @@ import Image from 'next/image';
 import carouselImage1 from '../public/lightboxes/_MG_2398.jpg';
 import carouselImage2 from '../public/lightboxes/_MG_2337.jpg';
 import carouselImage3 from '../public/lightboxes/_MG_2377.jpg';
-import carouselImage4 from '../public/lightboxes/_MG_2306.jpg';
+import carouselImage4 from '../public/lightboxes/_MG_2503.jpg';
 
 import Jumbotron from "../components/Jumbotron";
 

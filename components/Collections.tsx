@@ -1,7 +1,7 @@
 import styles from '../styles/Collections.module.scss'
 import Link from 'next/link'
 import Image from 'next/image'
-import collectionImage from '../public/lightboxes/_MG_2448.jpg'
+import collectionImage from '../public/lightboxes/_MG_2398.jpg'
 
 export default function CollectionsSection() {
     return (
