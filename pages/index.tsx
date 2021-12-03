@@ -1,5 +1,6 @@
 import Modal from "react-modal";
 import ProductList from "../components/ProductList2";
+import Discord from "../components/DiscordCTA";
 import Contact from "../components/Contact";
 import Head from "next/head";
 import {IProduct} from "../components/Product";
@@ -50,6 +51,7 @@ export default function Home({products}: IProductListProps) {
                 <Carousel />
                 <ProductList products={products}/>
                 <ViewMore />
+                <Discord />
                 <Collections />
                 <Contact/>
             </main>

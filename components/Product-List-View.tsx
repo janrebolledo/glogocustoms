@@ -44,7 +44,6 @@ const Product = (props: IProductProps) => {
             </div>
                 <div className={styles.product__info}>
                     <h2 className={styles.product__title}>{props.product.name}</h2>
-                    <div className={styles.product__price}>${props.product.price.toFixed(2)}</div>
                 </div>
             </div>
         </Link>

@@ -70,7 +70,7 @@ export default function Partners() {
                     <h5><b>Guwop</b> <i>Launch Partner</i></h5>
                     <p>Code: Guwop</p>
                     <div className={styles.partners__socials}>
-                        <Link href="https://www.instagram.com/https://www.instagram.com/jamescameron_00/"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://www.instagram.com/jamescameron_00/"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://www.twitter.com/gnwop/"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
                         <Link href="https://www.youtube.com/channel/UCc3VcxPP9L7kcNoWjgAZN8Q"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
                         <Link href="https://www.twitch.tv/guwop1x"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>

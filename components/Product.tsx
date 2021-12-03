@@ -46,7 +46,7 @@ const Product = (props: IProductProps) => {
                 <h2 className={styles.product__title}>{props.product.name}</h2>
                 <p className={styles.product__description}>{props.product.description}</p>
                 <div className="product__price-button-container">
-                    <div className={styles.product__price}>${props.product.price.toFixed(2)}</div>
+                    {/* <div className={styles.product__price}>${props.product.price.toFixed(2)}</div> */}
                     <button
                         id="snipcart-product"
                         className={`snipcart-add-item ${styles.product__button}`}
