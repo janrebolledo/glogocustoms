@@ -59,7 +59,8 @@
 
   &__price-button-container {
     display: flex;
-    grid-area: button;
+    align-items: center;
+    flex-direction: column;
   }
 
   &__button {
