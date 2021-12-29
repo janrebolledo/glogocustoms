@@ -20,6 +20,7 @@ import Girly from '../public/partners/Girly.png'
 import Aurora from '../public/partners/Aurora.png'
 import Solstice from '../public/partners/Solstice.jpg'
 import GhostHQ from '../public/partners/GhostHQ.png'
+import AdrianahLee from '../public/partners/AdrianahLee.jpg'
 
 export default function Partners() {
     return (
@@ -79,7 +80,7 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <img alt="" src={exampleImage.src} />
+                    <img alt="" src={AdrianahLee.src} />
                     <h5><b>Adrianah Lee</b> <i>Launch Partner</i></h5>
                     <p>Code: ADRIANAHLEE</p>
                     <div className={styles.partners__socials}>
