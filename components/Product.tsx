@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import WorksWith from "../public/Works With.png";
 
 export interface IProduct {
   id: string;
@@ -88,6 +89,7 @@ const Product = (props: IProductProps) => {
         <h2 className={styles.product__title}>{props.product.name}</h2>
         <p className={styles.product__description}>
           {props.product.description}
+          <img src={WorksWith.src} alt='Works With' className={styles.product__workswith} />
         </p>
         <div className="product__price-button-container">
           {/* <div id="product-price" className={styles.product__price}>${props.product.price}</div> */}
