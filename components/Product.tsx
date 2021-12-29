@@ -28,7 +28,7 @@ SwiperCore.use([Autoplay, Pagination, Navigation]);
 const Product = (props: IProductProps) => {
   function sizeSelect() {
     var e = document.getElementById("product__size-select");
-    var selectedSize = e.value;
+    var selectedSize = (document.getElementById("product__size-select") as HTMLInputElement).value;
 
     var snipcartBtn = document.getElementById("snipcart-product");
 
@@ -38,7 +38,7 @@ const Product = (props: IProductProps) => {
   }
   function frameSelect() {
     var e = document.getElementById("product__frame-select");
-    var selectedFrame = e.value;
+    var selectedFrame = (document.getElementById("product__frame-select") as HTMLInputElement).value;
 
     var snipcartBtn = document.getElementById("snipcart-product");
 
@@ -48,7 +48,7 @@ const Product = (props: IProductProps) => {
   }
   function colorSelect() {
     var e = document.getElementById("product__color-select");
-    var selectedColor = e.value;
+    var selectedColor = (document.getElementById("product__color-select") as HTMLInputElement).value;
 
     var snipcartBtn = document.getElementById("snipcart-product");
 
