@@ -59,7 +59,7 @@ export default function Home({products}: IProductListProps) {
                     <div className="modal-content">
                     <h2>GET 5% OFF YOUR PURCHASE</h2>
                     <p>Choose a partner code at checkout to support a creator and get a discount on your purchase!</p>
-                    <Link href="../partners"><a className="button">View Partners</a></Link>
+                    <Link href="../../partners"><a className="button">View Partners</a></Link>
                     </div>
                     <button onClick={() => setModalIsOpen(false)} className="closeModal">×</button>
                 </Modal>
