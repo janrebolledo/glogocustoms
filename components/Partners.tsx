@@ -18,6 +18,8 @@ import Guwop from '../public/partners/Guwop.jpg'
 import Frostizy from '../public/partners/Frostizy.jpg'
 import Girly from '../public/partners/Girly.png'
 import Aurora from '../public/partners/Aurora.png'
+import Solstice from '../public/partners/Solstice.jpg'
+import GhostHQ from '../public/partners/GhostHQ.png'
 
 export default function Partners() {
     return (
@@ -27,7 +29,7 @@ export default function Partners() {
             <div className={styles.partners__card}>
                     <img alt="" src={CarterPulse.src} />
                     <h5><b>Carter Pulse</b> <i>Launch Partner</i></h5>
-                    <p>Code: CarterPulse</p>
+                    <p>Code: CARTERPULSE</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://carterpulse.com"><a><Image alt="" src={website} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com/CarterPulse"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -36,7 +38,7 @@ export default function Partners() {
                 <div className={styles.partners__card}>
                     <img alt="" src={Jan.src} />
                     <h5><b>Jan</b> <i>Launch Partner</i></h5>
-                    <p>Code: Jan</p>
+                    <p>Code: JAN</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://janrebolledo.com"><a><Image alt="" src={website} width="32" height="32" ></Image></a></Link>
                         <Link href="https://instagram.com/janconcepts"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
@@ -44,20 +46,9 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <img alt="" src={exampleImage.src} />
-                    <h5><b>Jeff</b> <i>Launch Partner</i></h5>
-                    <p>Code: Jeff</p>
-                    <div className={styles.partners__socials}>
-                        <Link href="https://twitter.com/jeffthemvp"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://www.youtube.com/channel/UC8ei2fsnEytL-D5UJa1CaYw"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://www.twitch.tv/xtrajeff"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://www.tiktok.com/@jefftheqt"><a><Image alt="" src={tiktok} width="32" height="32" ></Image></a></Link>
-                    </div>
-                </div>
-                <div className={styles.partners__card}>
                     <img alt="" src={Frostizy.src} />
                     <h5><b>Frostizy</b> <i>Launch Partner</i></h5>
-                    <p>Code: Frostizy</p>
+                    <p>Code: FROSTIZY</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://twitter.com/Frostizy"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
                         <Link href="https://www.youtube.com/user/Imfrostizy"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
@@ -68,7 +59,7 @@ export default function Partners() {
                 <div className={styles.partners__card}>
                     <img alt="" src={Guwop.src} />
                     <h5><b>Guwop</b> <i>Launch Partner</i></h5>
-                    <p>Code: Guwop</p>
+                    <p>Code: GUWOP</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://www.instagram.com/jamescameron_00/"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://www.twitter.com/gnwop/"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -79,7 +70,7 @@ export default function Partners() {
                 <div className={styles.partners__card}>
                     <img alt="" src={Girly.src} />
                     <h5><b>Girly</b> <i>Launch Partner</i></h5>
-                    <p>Code: Girly</p>
+                    <p>Code: GIRLY</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://www.instagram.com/imgirlytv/"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
                         <Link href="https://twitter.com/ImGirlyTV"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
@@ -90,7 +81,7 @@ export default function Partners() {
                 <div className={styles.partners__card}>
                     <img alt="" src={exampleImage.src} />
                     <h5><b>Adrianah Lee</b> <i>Launch Partner</i></h5>
-                    <p>Code: Adrianah Lee</p>
+                    <p>Code: ADRIANAHLEE</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://twitter.com/AdrianahLee"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
                         <Link href="https://www.youtube.com/channel/UC8QAjn64hfQgg9PVMxR4VuA"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
@@ -101,7 +92,7 @@ export default function Partners() {
                 <div className={styles.partners__card}>
                     <img alt="" src={Aurora.src} />
                     <h5><b>Aurora</b> <i>Launch Partner</i></h5>
-                    <p>Code: Aurora</p>
+                    <p>Code: AURORA</p>
                     <div className={styles.partners__socials}>
                         <Link href="https://twitter.com/AuroraaTW"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
                         <Link href="https://www.youtube.com/c/auroralight"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
@@ -110,179 +101,25 @@ export default function Partners() {
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <img alt="" src={exampleImage.src} />
-                    <h5><b>Partner</b> <i>Launch Partner</i></h5>
-                    <p>Code: Code</p>
+                    <img alt="" src={Solstice.src} />
+                    <h5><b>ClearSolstice</b> <i>Launch Partner</i></h5>
+                    <p>Code: SOLSTICE</p>
                     <div className={styles.partners__socials}>
-                        <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://youtube.com"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitch.tv"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://www.instagram.com/clearsolstice/"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://twitter.com/ClearSolstice"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://www.youtube.com/channel/Solsticeahah"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://www.twitch.tv/clearsolstice"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
                     </div>
                 </div>
                 <div className={styles.partners__card}>
-                    <img alt="" src={exampleImage.src} />
-                    <h5><b>Partner</b> <i>Launch Partner</i></h5>
-                    <p>Code: Code</p>
+                    <img alt="" src={GhostHQ.src} />
+                    <h5><b>GhostHQ</b> <i>Launch Partner</i></h5>
+                    <p>Code: GHOSTHQ</p>
                     <div className={styles.partners__socials}>
-                        <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://youtube.com"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitch.tv"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
-                    </div>
-                </div>
-                <div className={styles.partners__card}>
-                    <img alt="" src={exampleImage.src} />
-                    <h5><b>Partner</b> <i>Launch Partner</i></h5>
-                    <p>Code: Code</p>
-                    <div className={styles.partners__socials}>
-                        <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://youtube.com"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitch.tv"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
-                    </div>
-                </div>
-                <div className={styles.partners__card}>
-                    <img alt="" src={exampleImage.src} />
-                    <h5><b>Partner</b> <i>Launch Partner</i></h5>
-                    <p>Code: Code</p>
-                    <div className={styles.partners__socials}>
-                        <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://youtube.com"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitch.tv"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
-                    </div>
-                </div>
-                <div className={styles.partners__card}>
-                    <img alt="" src={exampleImage.src} />
-                    <h5><b>Partner</b> <i>Launch Partner</i></h5>
-                    <p>Code: Code</p>
-                    <div className={styles.partners__socials}>
-                        <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://youtube.com"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitch.tv"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
-                    </div>
-                </div>
-                <div className={styles.partners__card}>
-                    <img alt="" src={exampleImage.src} />
-                    <h5><b>Partner</b> <i>Launch Partner</i></h5>
-                    <p>Code: Code</p>
-                    <div className={styles.partners__socials}>
-                        <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://youtube.com"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitch.tv"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
-                    </div>
-                </div>
-                <div className={styles.partners__card}>
-                    <img alt="" src={exampleImage.src} />
-                    <h5><b>Partner</b> <i>Launch Partner</i></h5>
-                    <p>Code: Code</p>
-                    <div className={styles.partners__socials}>
-                        <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://youtube.com"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitch.tv"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
-                    </div>
-                </div>
-                <div className={styles.partners__card}>
-                    <img alt="" src={exampleImage.src} />
-                    <h5><b>Partner</b> <i>Launch Partner</i></h5>
-                    <p>Code: Code</p>
-                    <div className={styles.partners__socials}>
-                        <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://youtube.com"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitch.tv"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
-                    </div>
-                </div>
-                <div className={styles.partners__card}>
-                    <img alt="" src={exampleImage.src} />
-                    <h5><b>Partner</b> <i>Launch Partner</i></h5>
-                    <p>Code: Code</p>
-                    <div className={styles.partners__socials}>
-                        <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://youtube.com"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitch.tv"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
-                    </div>
-                </div>
-                <div className={styles.partners__card}>
-                    <img alt="" src={exampleImage.src} />
-                    <h5><b>Partner</b> <i>Launch Partner</i></h5>
-                    <p>Code: Code</p>
-                    <div className={styles.partners__socials}>
-                        <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://youtube.com"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitch.tv"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
-                    </div>
-                </div>
-                <div className={styles.partners__card}>
-                    <img alt="" src={exampleImage.src} />
-                    <h5><b>Partner</b> <i>Launch Partner</i></h5>
-                    <p>Code: Code</p>
-                    <div className={styles.partners__socials}>
-                        <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://youtube.com"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitch.tv"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
-                    </div>
-                </div>
-                <div className={styles.partners__card}>
-                    <img alt="" src={exampleImage.src} />
-                    <h5><b>Partner</b> <i>Launch Partner</i></h5>
-                    <p>Code: Code</p>
-                    <div className={styles.partners__socials}>
-                        <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://youtube.com"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitch.tv"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
-                    </div>
-                </div>
-                <div className={styles.partners__card}>
-                    <img alt="" src={exampleImage.src} />
-                    <h5><b>Partner</b> <i>Launch Partner</i></h5>
-                    <p>Code: Code</p>
-                    <div className={styles.partners__socials}>
-                        <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://youtube.com"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitch.tv"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
-                    </div>
-                </div>
-                <div className={styles.partners__card}>
-                    <img alt="" src={exampleImage.src} />
-                    <h5><b>Partner</b> <i>Launch Partner</i></h5>
-                    <p>Code: Code</p>
-                    <div className={styles.partners__socials}>
-                        <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://youtube.com"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitch.tv"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
-                    </div>
-                </div>
-                <div className={styles.partners__card}>
-                    <img alt="" src={exampleImage.src} />
-                    <h5><b>Partner</b> <i>Launch Partner</i></h5>
-                    <p>Code: Code</p>
-                    <div className={styles.partners__socials}>
-                        <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://youtube.com"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitch.tv"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
-                    </div>
-                </div>
-                <div className={styles.partners__card}>
-                    <img alt="" src={exampleImage.src} />
-                    <h5><b>Partner</b> <i>Launch Partner</i></h5>
-                    <p>Code: Code</p>
-                    <div className={styles.partners__socials}>
-                        <Link href="https://instagram.com"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitter.com"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://youtube.com"><a><Image alt="" src={youtube} width="32" height="32" ></Image></a></Link>
-                        <Link href="https://twitch.tv"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://www.instagram.com/ghosthq.tv/"><a><Image alt="" src={instagram} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://twitter.com/GhostHQtv"><a><Image alt="" src={twitter} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://www.tiktok.com/@ghosthq?"><a><Image alt="" src={tiktok} width="32" height="32" ></Image></a></Link>
+                        <Link href="https://www.twitch.tv/ghosthq"><a><Image alt="" src={twitch} width="32" height="32" ></Image></a></Link>
                     </div>
                 </div>
                 <div className={styles.partners__card}>
