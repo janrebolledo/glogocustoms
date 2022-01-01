@@ -1,4 +1,4 @@
-@use 'mixins';
+@use "mixins";
 
 .shop {
   margin-top: 5vh;
@@ -8,16 +8,16 @@
 .shopcollection {
   width: 100%;
   margin-top: -180px;
-  background-image: url('../public/lightboxes/_MG_2398.jpg');
+  background-image: url("../public/lightboxes/_MG_2398.jpg");
   background-position: center;
   background-attachment: scroll;
   background-size: cover;
   height: 30vh;
-  margin-bottom: 10vh;
+  margin-bottom: 20vh;
   @include mixins.flex-centered;
   &__heading {
     @include mixins.centered;
-    margin-top: 10vh;
+    margin-top: 15vh;
   }
 }
 

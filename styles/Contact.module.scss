@@ -1,4 +1,4 @@
-@use 'mixins';
+@use "mixins";
 
 .contact {
   text-align: center;
@@ -41,7 +41,7 @@
     }
 
     &:before {
-      content: ' ';
+      content: " ";
       position: absolute;
       background-color: mixins.$color-white;
       top: 0;
@@ -53,6 +53,16 @@
       z-index: -1;
       transform: scale(1);
       transition: all 0.3s cubic-bezier(0.16, 0.8, 0.66, 1.54);
+    }
+  }
+
+  &__buttons {
+    @include mixins.flex-centered;
+    display: flex;
+
+    button {
+      margin-left: 12px;
+      margin-right: 12px;
     }
   }
 }

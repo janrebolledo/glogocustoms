@@ -1,4 +1,4 @@
-@use 'mixins';
+@use "mixins";
 .product {
   display: flex;
   width: 100%;
@@ -39,7 +39,8 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 8px;
-    input, select {
+    input,
+    select {
       padding: 8px;
       margin: 4px 0;
       -webkit-appearance: none;
@@ -88,7 +89,7 @@
     }
 
     &:before {
-      content: ' ';
+      content: " ";
       position: absolute;
       background-color: mixins.$color-teal;
       top: 0;
@@ -106,6 +107,12 @@
   @include mixins.mobile {
     flex-direction: column;
   }
+
+  &__disclaimer {
+    color: mixins.$color-light-grey;
+    font-style: italic;
+    font-size: 16px;
+  }
 }
 
 .carousel {
@@ -115,13 +122,13 @@
     width: 100%;
   }
   :root {
-      --swiper-theme-color: #6dffda;
+    --swiper-theme-color: #6dffda;
   }
   &__imageContainer {
-      overflow: hidden;
-      @include mixins.flex-centered;
+    overflow: hidden;
+    @include mixins.flex-centered;
   }
   img {
-      width: 100%;
+    width: 100%;
   }
 }

@@ -28,7 +28,9 @@ SwiperCore.use([Autoplay, Pagination, Navigation]);
 const Product = (props: IProductProps) => {
   function sizeSelect() {
     var e = document.getElementById("product__size-select");
-    var selectedSize = (document.getElementById("product__size-select") as HTMLInputElement).value;
+    var selectedSize = (
+      document.getElementById("product__size-select") as HTMLInputElement
+    ).value;
 
     var snipcartBtn = document.getElementById("snipcart-product");
 
@@ -38,7 +40,9 @@ const Product = (props: IProductProps) => {
   }
   function frameSelect() {
     var e = document.getElementById("product__frame-select");
-    var selectedFrame = (document.getElementById("product__frame-select") as HTMLInputElement).value;
+    var selectedFrame = (
+      document.getElementById("product__frame-select") as HTMLInputElement
+    ).value;
 
     var snipcartBtn = document.getElementById("snipcart-product");
 
@@ -48,7 +52,9 @@ const Product = (props: IProductProps) => {
   }
   function colorSelect() {
     var e = document.getElementById("product__color-select");
-    var selectedColor = (document.getElementById("product__color-select") as HTMLInputElement).value;
+    var selectedColor = (
+      document.getElementById("product__color-select") as HTMLInputElement
+    ).value;
 
     var snipcartBtn = document.getElementById("snipcart-product");
 
@@ -89,7 +95,11 @@ const Product = (props: IProductProps) => {
         <h2 className={styles.product__title}>{props.product.name}</h2>
         <p className={styles.product__description}>
           {props.product.description}
-          <img src={WorksWith.src} alt='Works With' className={styles.product__workswith} />
+          <img
+            src={WorksWith.src}
+            alt="Works With"
+            className={styles.product__workswith}
+          />
         </p>
         <div className="product__price-button-container">
           {/* <div id="product-price" className={styles.product__price}>${props.product.price}</div> */}
@@ -174,6 +184,10 @@ const Product = (props: IProductProps) => {
           >
             Add to cart
           </button>
+          <p className={styles.product__disclaimer}>
+            *We will reach out via purchasing email within 24 hours to receive
+            your image
+          </p>
         </div>
       </div>
     </div>
