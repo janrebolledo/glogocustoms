@@ -180,13 +180,16 @@ const Product = (props: IProductProps) => {
             data-item-custom3-options="Sweet Pea|Vintage Blush|Apple Red|Poppy Red|Paprika|Colonial Red|Magenta|Claret Wine|Cinnamon|Harvest Peach|Rustic Orange|Fire Orange|Strawflower|Summer Squash|Lemon Grass|Green Apple|Leafy Green|Moss Green|Eden|Oregano|Hunt Club Green|Deep Forest|Vintage Teal|Seaside|Aqua|French Blue|Oasis Blue|Lagoon|Midnight Blue|Slate Blue|Windflower Blue|Ink Blue|French Lilac|Silver Lilac|Augbergine|Blossom White|Heirloom White|Ivory Silk|Smokey Beige|Fossil|Stone Gray|Granite|Charcoal Gray|London Gray|Warm Caramel|Nutmeg|Espresso|Dark Walnut|Canyon Black"
             data-item-custom4-name="DISCLAIMER"
             data-item-custom4-type="readonly"
-            data-item-custom4-value="Read our FAQ for info on colors and more."
+            data-item-custom4-value="We will reach out via purchasing email within 24 hours to receive
+            your image. We reserve the right to deny any image. All denied
+            images will be refunded."
           >
             Add to cart
           </button>
           <p className={styles.product__disclaimer}>
             *We will reach out via purchasing email within 24 hours to receive
-            your image
+            your image. We reserve the right to deny any image. All denied
+            images will be refunded.
           </p>
         </div>
       </div>
