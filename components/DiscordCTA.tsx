@@ -8,7 +8,7 @@ export default function Contact() {
         Unsure if your custom image will work?
       </h2>
       <p className={styles.contact__paragraph}>Reach out to us!</p>
-      <Link href="/contact">
+      <Link href="/contact" passHref>
         <button>Contact Us</button>
       </Link>
     </div>
