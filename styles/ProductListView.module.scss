@@ -1,4 +1,4 @@
-@use 'mixins';
+@use "mixins";
 .product {
   display: flex;
   width: 46.8%;
@@ -47,7 +47,8 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 8px;
-    input, select {
+    input,
+    select {
       padding: 8px;
       margin: 4px 0;
     }
@@ -60,6 +61,11 @@
     font-weight: bold;
     @include mixins.mobile {
       font-size: 32px;
+    }
+
+    span {
+      text-decoration: line-through;
+      color: rgb(119, 119, 119);
     }
   }
 
@@ -74,7 +80,7 @@
   }
 
   :hover > &__image {
-    opacity: .8;
+    opacity: 0.8;
   }
 
   &__price-button-container {
@@ -102,7 +108,7 @@
     }
 
     &:before {
-      content: ' ';
+      content: " ";
       position: absolute;
       background-color: mixins.$color-teal;
       top: 0;
@@ -125,13 +131,13 @@
   @include mixins.centered;
   width: 100%;
   :root {
-      --swiper-theme-color: #6dffda;
+    --swiper-theme-color: #6dffda;
   }
   &__imageContainer {
-      overflow: hidden;
-      @include mixins.flex-centered;
+    overflow: hidden;
+    @include mixins.flex-centered;
   }
   img {
-      width: 100%;
+    width: 100%;
   }
 }

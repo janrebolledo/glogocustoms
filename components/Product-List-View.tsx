@@ -56,7 +56,9 @@ const Product = (props: IProductProps) => {
         </div>
         <div className={styles.product__info}>
           <h2 className={styles.product__title}>{props.product.name}</h2>
-          <p className={styles.product__price}>$100 - $150</p>
+          <p className={styles.product__price}>
+            <span>$100 - $150</span> $80 - $120
+          </p>
         </div>
       </div>
     </Link>
