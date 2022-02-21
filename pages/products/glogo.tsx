@@ -109,7 +109,7 @@ export const products: IProduct[] = [
   {
     id: "Glogo",
     name: "Glogo",
-    price: 80.0,
+    price: 100.0,
     image: LightboxBlackFrame,
     image2: LightboxWhiteFrame,
     description:

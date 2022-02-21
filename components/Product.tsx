@@ -173,7 +173,7 @@ const Product = (props: IProductProps) => {
             data-item-image={props.product.image.src}
             data-item-weight={props.product.weight}
             data-item-custom1-name="Size"
-            data-item-custom1-options="8″x8″|12″x12″[+40.00]"
+            data-item-custom1-options="8″x8″|12″x12″[+50.00]"
             data-item-custom2-name="Frame Color"
             data-item-custom2-options="Black|White"
             data-item-custom3-name="Glass Color"

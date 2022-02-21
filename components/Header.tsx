@@ -10,7 +10,7 @@ import Logo from "./Logo";
 import NavLinks from "./NavLinks";
 import { DeviceSize } from "./MediaQueries";
 import { MobileNavLinks } from "./MobileNavLinks";
-import Banner from "./Banner";
+// import Banner from "./Banner";
 
 const NavbarContainer = styled.div`
   width: 100%;
@@ -21,7 +21,7 @@ const NavbarContainer = styled.div`
   background-color: #13131350;
   flex-direction: row;
   position: fixed;
-  top: 5vh;
+  /* top: 5vh; */
   z-index: 5;
   @media screen and (max-width: 980px) {
     height: 20vh;
@@ -45,7 +45,7 @@ export default function Header() {
   const isTablet = useMediaQuery({ maxWidth: DeviceSize.tablet });
   return (
     <div>
-      <Banner />
+      {/* <Banner /> */}
       <NavbarContainer id="header">
         <LeftSection>
           <Logo />
