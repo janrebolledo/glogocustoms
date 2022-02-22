@@ -1,10 +1,10 @@
-import ColorOptionsImg from "../public/FAQ Images/ColorPalette.png";
+// import ColorOptionsImg from "../public/FAQ Images/ColorPalette.png";
 
 export default function ColorOptions() {
   return (
     <div>
       <h2>Color Options</h2>
-      <img src={ColorOptionsImg.src} alt="Color Options" />
+      {/* <img src={ColorOptionsImg.src} alt="Color Options" /> */}
       <style jsx>{`
         div {
           width: 100%;
