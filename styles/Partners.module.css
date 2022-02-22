@@ -52,3 +52,7 @@
 .partners__socials > a {
   padding-right: 15px;
 }
+
+.partners__socials a img {
+  width: 32px;
+}

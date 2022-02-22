@@ -1,12 +1,12 @@
 import styles from "../styles/Partners.module.css";
 import Link from "next/link";
-import Instagram from "../../public/Instagram.png";
-import Twitter from "../../public/Twitter.png";
-import Twitch from "../../public/Twitch.png";
-import TikTok from "../../public/TikTok.png";
-import YouTube from "../../public/Youtube.png";
-import Discord from "../../public/discord.png";
-import Website from "../../public/Website Icon.png";
+import Instagram from "../public/Instagram.png";
+import Twitter from "../public/Twitter.png";
+import Twitch from "../public/Twitch.png";
+import TikTok from "../public/TikTok.png";
+import YouTube from "../public/Youtube.png";
+import Discord from "../public/discord.png";
+import Website from "../public/Website Icon.png";
 
 // PARTNER IMAGES
 
@@ -34,12 +34,12 @@ export default function PartnersPage() {
           <div className={styles.partners__socials}>
             <Link href="https://carterpulse.com">
               <a>
-                <img alt="" src={Website.src} width="32" height="32" />
+                <img alt="" src={Website.src} />
               </a>
             </Link>
             <Link href="https://twitter.com/CarterPulse">
               <a>
-                <img alt="" src={Twitter.src} width="32" height="32" />
+                <img alt="" src={Twitter.src} />
               </a>
             </Link>
           </div>
@@ -53,17 +53,17 @@ export default function PartnersPage() {
           <div className={styles.partners__socials}>
             <Link href="https://janrebolledo.com">
               <a>
-                <img alt="" src={Website.src} width="32" height="32" />
+                <img alt="" src={Website.src} />
               </a>
             </Link>
             <Link href="https://instagram.com/janconcepts">
               <a>
-                <img alt="" src={Instagram.src} width="32" height="32" />
+                <img alt="" src={Instagram.src} />
               </a>
             </Link>
             <Link href="https://twitter.com/janconcepts">
               <a>
-                <img alt="" src={Twitter.src} width="32" height="32" />
+                <img alt="" src={Twitter.src} />
               </a>
             </Link>
           </div>
@@ -77,22 +77,22 @@ export default function PartnersPage() {
           <div className={styles.partners__socials}>
             <Link href="https://twitter.com/Frostizy">
               <a>
-                <img alt="" src={Twitter.src} width="32" height="32" />
+                <img alt="" src={Twitter.src} />
               </a>
             </Link>
             <Link href="https://www.youtube.com/user/Imfrostizy">
               <a>
-                <img alt="" src={YouTube.src} width="32" height="32" />
+                <img alt="" src={YouTube.src} />
               </a>
             </Link>
             <Link href="https://www.twitch.tv/frostizy">
               <a>
-                <img alt="" src={Twitch.src} width="32" height="32" />
+                <img alt="" src={Twitch.src} />
               </a>
             </Link>
             <Link href="https://discord.gg/ez6DqeB">
               <a>
-                <img alt="" src={Discord.src} width="32" height="32" />
+                <img alt="" src={Discord.src} />
               </a>
             </Link>
           </div>
@@ -106,22 +106,22 @@ export default function PartnersPage() {
           <div className={styles.partners__socials}>
             <Link href="https://www.instagram.com/jamescameron_00/">
               <a>
-                <img alt="" src={Instagram.src} width="32" height="32" />
+                <img alt="" src={Instagram.src} />
               </a>
             </Link>
             <Link href="https://www.twitter.com/gnwop/">
               <a>
-                <img alt="" src={Twitter.src} width="32" height="32" />
+                <img alt="" src={Twitter.src} />
               </a>
             </Link>
             <Link href="https://www.youtube.com/channel/UCc3VcxPP9L7kcNoWjgAZN8Q">
               <a>
-                <img alt="" src={YouTube.src} width="32" height="32" />
+                <img alt="" src={YouTube.src} />
               </a>
             </Link>
             <Link href="https://www.twitch.tv/guwop1x">
               <a>
-                <img alt="" src={Twitch.src} width="32" height="32" />
+                <img alt="" src={Twitch.src} />
               </a>
             </Link>
           </div>
@@ -135,22 +135,22 @@ export default function PartnersPage() {
           <div className={styles.partners__socials}>
             <Link href="https://www.instagram.com/imgirlytv/">
               <a>
-                <img alt="" src={Instagram.src} width="32" height="32" />
+                <img alt="" src={Instagram.src} />
               </a>
             </Link>
             <Link href="https://twitter.com/ImGirlyTV">
               <a>
-                <img alt="" src={Twitter.src} width="32" height="32" />
+                <img alt="" src={Twitter.src} />
               </a>
             </Link>
             <Link href="https://www.tiktok.com/@imgirlytv?">
               <a>
-                <img alt="" src={TikTok.src} width="32" height="32" />
+                <img alt="" src={TikTok.src} />
               </a>
             </Link>
             <Link href="https://www.twitch.tv/imgirlytv">
               <a>
-                <img alt="" src={Twitch.src} width="32" height="32" />
+                <img alt="" src={Twitch.src} />
               </a>
             </Link>
           </div>
@@ -164,22 +164,22 @@ export default function PartnersPage() {
           <div className={styles.partners__socials}>
             <Link href="https://twitter.com/AdrianahLee">
               <a>
-                <img alt="" src={Twitter.src} width="32" height="32" />
+                <img alt="" src={Twitter.src} />
               </a>
             </Link>
             <Link href="https://www.youtube.com/channel/UC8QAjn64hfQgg9PVMxR4VuA">
               <a>
-                <img alt="" src={YouTube.src} width="32" height="32" />
+                <img alt="" src={YouTube.src} />
               </a>
             </Link>
             <Link href="https://www.tiktok.com/@adrianahlee?">
               <a>
-                <img alt="" src={TikTok.src} width="32" height="32" />
+                <img alt="" src={TikTok.src} />
               </a>
             </Link>
             <Link href="https://www.twitch.tv/adrianahlee">
               <a>
-                <img alt="" src={Twitch.src} width="32" height="32" />
+                <img alt="" src={Twitch.src} />
               </a>
             </Link>
           </div>
@@ -193,22 +193,22 @@ export default function PartnersPage() {
           <div className={styles.partners__socials}>
             <Link href="https://twitter.com/AuroraaTW">
               <a>
-                <img alt="" src={Twitter.src} width="32" height="32" />
+                <img alt="" src={Twitter.src} />
               </a>
             </Link>
             <Link href="https://www.youtube.com/c/auroralight">
               <a>
-                <img alt="" src={YouTube.src} width="32" height="32" />
+                <img alt="" src={YouTube.src} />
               </a>
             </Link>
             <Link href="https://www.twitch.tv/auroralight">
               <a>
-                <img alt="" src={Twitch.src} width="32" height="32" />
+                <img alt="" src={Twitch.src} />
               </a>
             </Link>
             <Link href="https://www.tiktok.com/@aurora_lightzz?lang=en">
               <a>
-                <img alt="" src={TikTok.src} width="32" height="32" />
+                <img alt="" src={TikTok.src} />
               </a>
             </Link>
           </div>
@@ -222,22 +222,22 @@ export default function PartnersPage() {
           <div className={styles.partners__socials}>
             <Link href="https://www.instagram.com/clearsolstice/">
               <a>
-                <img alt="" src={Instagram.src} width="32" height="32" />
+                <img alt="" src={Instagram.src} />
               </a>
             </Link>
             <Link href="https://twitter.com/ClearSolstice">
               <a>
-                <img alt="" src={Twitter.src} width="32" height="32" />
+                <img alt="" src={Twitter.src} />
               </a>
             </Link>
             <Link href="https://www.youtube.com/channel/Solsticeahah">
               <a>
-                <img alt="" src={YouTube.src} width="32" height="32" />
+                <img alt="" src={YouTube.src} />
               </a>
             </Link>
             <Link href="https://www.twitch.tv/clearsolstice">
               <a>
-                <img alt="" src={Twitch.src} width="32" height="32" />
+                <img alt="" src={Twitch.src} />
               </a>
             </Link>
           </div>
@@ -251,22 +251,22 @@ export default function PartnersPage() {
           <div className={styles.partners__socials}>
             <Link href="https://www.instagram.com/ghosthq.tv/">
               <a>
-                <img alt="" src={Instagram.src} width="32" height="32" />
+                <img alt="" src={Instagram.src} />
               </a>
             </Link>
             <Link href="https://twitter.com/GhostHQtv">
               <a>
-                <img alt="" src={Twitter.src} width="32" height="32" />
+                <img alt="" src={Twitter.src} />
               </a>
             </Link>
             <Link href="https://www.tiktok.com/@ghosthq?">
               <a>
-                <img alt="" src={TikTok.src} width="32" height="32" />
+                <img alt="" src={TikTok.src} />
               </a>
             </Link>
             <Link href="https://www.twitch.tv/ghosthq">
               <a>
-                <img alt="" src={Twitch.src} width="32" height="32" />
+                <img alt="" src={Twitch.src} />
               </a>
             </Link>
           </div>
@@ -276,10 +276,10 @@ export default function PartnersPage() {
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
                     <p>Code: Code</p>
                     <div className={styles.partners__socials}>
-                        <Link href="https://instagram.com"><a><img alt="" src={Instagram.src} width="32" height="32"  /></a></Link>
-                        <Link href="https://twitter.com"><a><img alt="" src={Twitter.src} width="32" height="32"  /></a></Link>
-                        <Link href="https://youtube.com"><a><img alt="" src={YouTube.src} width="32" height="32"  /></a></Link>
-                        <Link href="https://twitch.tv"><a><img alt="" src={Twitch.src} width="32" height="32"  /></a></Link>
+                        <Link href="https://instagram.com"><a><img alt="" src={Instagram.src}  /></a></Link>
+                        <Link href="https://twitter.com"><a><img alt="" src={Twitter.src}  /></a></Link>
+                        <Link href="https://youtube.com"><a><img alt="" src={YouTube.src}  /></a></Link>
+                        <Link href="https://twitch.tv"><a><img alt="" src={Twitch.src}  /></a></Link>
                     </div>
                 </div> */}
       </div>
