@@ -1,12 +1,12 @@
 import styles from "../styles/Partners.module.css";
 import Link from "next/link";
-import Instagram from "../public/Instagram.png";
-import Twitter from "../public/Twitter.png";
-import Twitch from "../public/Twitch.png";
-import TikTok from "../public/TikTok.png";
-import YouTube from "../public/Youtube.png";
-import Discord from "../public/discord.png";
-import Website from "../public/Website Icon.png";
+import Instagram from "../../public/Instagram.png";
+import Twitter from "../../public/Twitter.png";
+import Twitch from "../../public/Twitch.png";
+import TikTok from "../../public/TikTok.png";
+import YouTube from "../../public/Youtube.png";
+import Discord from "../../public/discord.png";
+import Website from "../../public/Website Icon.png";
 
 // PARTNER IMAGES
 
@@ -33,14 +33,18 @@ export default function PartnersPage() {
           <p>Code: CARTERPULSE</p>
           <div className={styles.partners__socials}>
             <Link href="https://carterpulse.com">
-              <img alt="" src={Website.src} width="32" height="32" />
+              <a>
+                <img alt="" src={Website.src} width="32" height="32" />
+              </a>
             </Link>
             <Link href="https://twitter.com/CarterPulse">
-              <img alt="" src={Twitter.src} width="32" height="32" />
+              <a>
+                <img alt="" src={Twitter.src} width="32" height="32" />
+              </a>
             </Link>
           </div>
         </div>
-        {/* <div className={styles.partners__card}>
+        <div className={styles.partners__card}>
           <img alt="" src={Jan.src} />
           <h5>
             <b>Jan</b> <i>Launch Partner</i>
@@ -266,7 +270,7 @@ export default function PartnersPage() {
               </a>
             </Link>
           </div>
-        </div> */}
+        </div>
         {/* <div className={styles.partners__card}>
                     <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
