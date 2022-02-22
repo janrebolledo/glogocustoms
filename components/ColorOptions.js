@@ -1,4 +1,4 @@
-import ColorOptionsImg from "../public/FAQ Images/Color Palette.png";
+import ColorOptionsImg from "../public/FAQ Images/ColorPalette.png";
 
 export default function ColorOptions() {
   return (

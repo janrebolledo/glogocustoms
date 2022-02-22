@@ -2,9 +2,9 @@ import Head from "next/head";
 
 import styles from "../styles/FAQ.module.css";
 
-import Works1 from "../public/FAQ Images/Will Work 1.png";
-import Works2 from "../public/FAQ Images/Will Work 2.png";
-import Works3 from "../public/FAQ Images/Will Work 3.png";
+import Works1 from "../public/FAQ Images/WillWork1.png";
+import Works2 from "../public/FAQ Images/WillWork2.png";
+import Works3 from "../public/FAQ Images/WillWork3.png";
 import Works4 from "../public/FAQ Images/Will Work 4.png";
 import Works5 from "../public/FAQ Images/Will Work 5.png";
 import Works6 from "../public/FAQ Images/Will Work 6.png";
@@ -15,7 +15,7 @@ import WontWork1 from "../public/FAQ Images/Wont Work 1.png";
 import WontWork2 from "../public/FAQ Images/Wont Work 2.png";
 import WontWork3 from "../public/FAQ Images/Wont Work 3.png";
 
-import Colors from "../public/FAQ Images/Color Palette.png";
+import ColorOptions from "../components/ColorOptions";
 
 export default function Faq() {
   return (
@@ -73,11 +73,7 @@ export default function Faq() {
         <p className={styles.faq__paragraph}>
           <i>All images go to respective owners.</i>
         </p>
-        <h3 className={styles.faq__title}>Color options</h3>
-        <p className={styles.faq__paragraph}>
-          All color glass color options are below.
-        </p>
-        <img alt="" src={Colors.src} className={styles.faq__colors} />
+        <ColorOptions />
       </section>
     </main>
   );
