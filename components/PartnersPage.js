@@ -5,7 +5,7 @@ import Twitter from "../public/Twitter.png";
 import Twitch from "../public/Twitch.png";
 import TikTok from "../public/TikTok.png";
 import YouTube from "../public/Youtube.png";
-// import Discord from "../public/Discord.png";
+import Discord from "../public/Discord.png";
 import Website from "../public/Website Icon.png";
 
 import CarterPulse from "../public/partners/CPLogo.png";
@@ -88,11 +88,11 @@ export default function PartnersPage() {
                 <img alt="" src={Twitch.src} />
               </a>
             </Link>
-            {/* <Link href="https://discord.gg/ez6DqeB">
+            <Link href="https://discord.gg/ez6DqeB">
               <a>
                 <img alt="" src={Discord.src} />
               </a>
-            </Link> */}
+            </Link>
           </div>
         </div>
         <div className={styles.partners__card}>
