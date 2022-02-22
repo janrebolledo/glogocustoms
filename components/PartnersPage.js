@@ -33,18 +33,14 @@ export default function PartnersPage() {
           <p>Code: CARTERPULSE</p>
           <div className={styles.partners__socials}>
             <Link href="https://carterpulse.com">
-              <a>
-                <img alt="" src={Website.src} width="32" height="32" />
-              </a>
+              <img alt="" src={Website.src} width="32" height="32" />
             </Link>
             <Link href="https://twitter.com/CarterPulse">
-              <a>
-                <img alt="" src={Twitter.src} width="32" height="32" />
-              </a>
+              <img alt="" src={Twitter.src} width="32" height="32" />
             </Link>
           </div>
         </div>
-        <div className={styles.partners__card}>
+        {/* <div className={styles.partners__card}>
           <img alt="" src={Jan.src} />
           <h5>
             <b>Jan</b> <i>Launch Partner</i>
@@ -270,7 +266,7 @@ export default function PartnersPage() {
               </a>
             </Link>
           </div>
-        </div>
+        </div> */}
         {/* <div className={styles.partners__card}>
                     <img alt="" src={exampleImage.src} />
                     <h5><b>Partner</b> <i>Launch Partner</i></h5>
