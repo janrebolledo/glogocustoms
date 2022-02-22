@@ -4,5 +4,6 @@ const nextConfig = {
   images: {
     disableStaticImages: false,
   },
+  optimizeFonts: false,
 };
 module.exports = nextConfig;
