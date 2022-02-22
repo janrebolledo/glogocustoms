@@ -1,5 +1,5 @@
 import Head from "next/head";
-import PartnersPage from "../components/PartnersPage";
+// import PartnersPage from "../components/PartnersPage";
 
 export default function Partners() {
   return (
