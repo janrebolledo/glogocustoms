@@ -1,10 +1,9 @@
 import styles from "../styles/Partners.module.css";
 import Link from "next/link";
-import Image from "next/image";
-import Instagram from "../public/instagram.png";
-import Twitter from "../public/twitter.png";
+import Instagram from "../public/Instagram.png";
+import Twitter from "../public/Twitter.png";
 import Twitch from "../public/Twitch.png";
-import TikTok from "../public/tiktok.png";
+import TikTok from "../public/TikTok.png";
 import YouTube from "../public/Youtube.png";
 import Discord from "../public/discord.png";
 import Website from "../public/Website Icon.png";
