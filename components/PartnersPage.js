@@ -8,8 +8,6 @@ import YouTube from "../public/Youtube.png";
 import Discord from "../public/Discord.png";
 import Website from "../public/Website Icon.png";
 
-// PARTNER IMAGES
-
 import CarterPulse from "../public/partners/CPLogo.png";
 import Jan from "../public/partners/Jan.jpg";
 import Guwop from "../public/partners/Guwop.jpg";
