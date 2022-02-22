@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 import Header from "../components/Header";
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 
 function app({ Component, pageProps }) {
   return (
@@ -13,7 +13,7 @@ function app({ Component, pageProps }) {
       />
       <Header />
       <Component {...pageProps} />
-      <Footer />
+      {/* <Footer /> */}
       <script
         async
         src="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.js"
