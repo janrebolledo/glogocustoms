@@ -13,6 +13,8 @@ import WontWork1 from "../public/FAQ Images/WontWork1.png";
 import WontWork2 from "../public/FAQ Images/WontWork2.png";
 import WontWork3 from "../public/FAQ Images/WontWork3.png";
 
+import ColorOptions from "./ColorOptions";
+
 export default function FAQPage() {
   return (
     <section className={styles.faq}>
