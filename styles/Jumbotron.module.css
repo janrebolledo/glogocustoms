@@ -1,0 +1,32 @@
+.jumbotron,
+.jumbotron__landing {
+  flex-direction: column;
+  height: auto;
+  padding: var(--padding);
+}
+
+.jumbotron__landing h1 {
+  font-size: 72px;
+  color: var(--teal);
+  margin: 0;
+}
+
+.jumbotron span {
+  color: var(--teal);
+}
+
+.jumbotron__landing h2 {
+  line-height: 0;
+  margin-bottom: 0;
+}
+
+.jumbotron p,
+.jumbotron__landing p {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 980px) {
+  .jumbotron__landing h1 {
+    font-size: 48px;
+  }
+}

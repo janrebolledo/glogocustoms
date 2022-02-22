@@ -1,0 +1,17 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 var(--padding);
+  color: var(--white);
+  z-index: 0;
+}
+
+.carousel * {
+  z-index: 0;
+}
+
+.carousel__image {
+  width: 100%;
+}

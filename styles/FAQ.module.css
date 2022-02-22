@@ -1,0 +1,27 @@
+.faq {
+  height: auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.faq__examples {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.faq__examples img {
+  width: 25%;
+}
+
+.faq__colors {
+  width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+  .faq__examples img {
+    width: 50%;
+  }
+}

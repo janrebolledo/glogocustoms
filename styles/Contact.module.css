@@ -1,0 +1,54 @@
+.contact__section {
+  flex-direction: column;
+  align-items: flex-start;
+  height: auto;
+}
+
+.form {
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form > label input textarea {
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.form > button {
+  width: min-content;
+}
+
+.input {
+  margin: 16px 0;
+  padding: 16px;
+  background-color: var(--dark);
+  color: var(--white);
+  border: 1px solid var(--light-grey);
+  border-radius: 16px;
+}
+
+.textarea {
+  resize: none;
+  height: 30vh;
+  margin: 16px 0;
+  padding: 16px;
+  background-color: var(--dark);
+  color: var(--white);
+  border: 1px solid var(--light-grey);
+  border-radius: 16px;
+  font-family: -apple-system, Inter Arial, Helvetica, sans-serif;
+}
+
+.contactbuttons {
+  margin-top: 16px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.contactbuttons a {
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
