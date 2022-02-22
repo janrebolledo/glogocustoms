@@ -1,5 +1,5 @@
 import Head from "next/head";
-// import PartnersPage from "../components/PartnersPage";
+import PartnersPage from "../components/PartnersPage";
 
 export default function Partners() {
   return (
@@ -24,7 +24,7 @@ export default function Partners() {
         <meta name="language" content="English"></meta>
         <meta name="revisit-after" content="12 days"></meta>
       </Head>
-      {/* <PartnersPage /> */}
+      <PartnersPage />
     </main>
   );
 }
