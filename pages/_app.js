@@ -11,7 +11,11 @@ function app({ Component, pageProps }) {
         rel="stylesheet"
         href="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.css"
       />
-      <link href="/fonts/Sequel100Black-85.ttf" rel="stylesheet" />
+      <link
+        href="https://glogocustoms.com/fonts/Sequel100Black-85.ttf"
+        rel="stylesheet"
+      />
+      <link rel="shortcut icon" href="/favicon.ico" />
       <Header />
       <Component {...pageProps} />
       <Footer />

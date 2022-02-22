@@ -45,11 +45,7 @@ export default function Glogo() {
     <main>
       <Head>
         <title>Glogo — Glogo Customs</title>
-        <link
-          rel="icon"
-          href="https://www.glogocustoms.com/favicon.ico"
-          type="image/x-icon"
-        />
+        <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="title" content="Glogo Customs"></meta>
         <meta
           name="description"
