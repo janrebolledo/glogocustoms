@@ -20,27 +20,27 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
-      <Link href="/">
+      <Link href="/" passHref>
         <img className={styles.header__logo} src={Logo.src} alt="Logo" />
       </Link>
 
       <div className={styles.header__nav} id="header-nav">
-        <Link href="/">
+        <Link href="/" passHref>
           <a className="hoverlink" onClick={headerToggle}>
             HOME
           </a>
         </Link>
-        <Link href="/products/glogo">
+        <Link href="/products/glogo" passHref>
           <a className="hoverlink" onClick={headerToggle}>
             STORE
           </a>
         </Link>
-        <Link href="/partners">
+        <Link href="/partners" passHref>
           <a className="hoverlink" onClick={headerToggle}>
             PARTNERS
           </a>
         </Link>
-        <Link href="/contact">
+        <Link href="/contact" passHref>
           <a className="hoverlink" onClick={headerToggle}>
             CONTACT
           </a>
