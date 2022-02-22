@@ -5,7 +5,7 @@ import Twitter from "../public/Twitter.png";
 import Twitch from "../public/Twitch.png";
 import TikTok from "../public/TikTok.png";
 import YouTube from "../public/Youtube.png";
-import Discord from "../public/discord.png";
+import Discord from "../public/Discord.png";
 import Website from "../public/Website Icon.png";
 
 // PARTNER IMAGES
