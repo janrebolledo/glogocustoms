@@ -1,6 +1,6 @@
 import "../styles/globals.css";
-import Header from "../Modules/Header";
-import Footer from "../Modules/Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 function app({ Component, pageProps }) {
   return (

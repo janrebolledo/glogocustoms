@@ -14,7 +14,7 @@ import GlogoImg from "../../public/Glogo Black Frame Mockup.gif";
 import GlogoImg2 from "../../public/Glogo White Frame Mockup.gif";
 
 import WorksWith from "../../public/Works With.png";
-import ColorOptions from "../../Modules/ColorOptions";
+import ColorOptions from "../../components/ColorOptions";
 
 export default function Glogo() {
   function sizeSelect() {

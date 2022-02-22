@@ -1,8 +1,8 @@
 import Head from "next/head";
-import Landing from "../Modules/Landing";
-import Carousel from "../Modules/Carousel";
-import Contact from "../Modules/Contact";
-import Collection from "../Modules/Collection";
+import Landing from "../components/Landing";
+import Carousel from "../components/Carousel";
+import Contact from "../components/Contact";
+import Collection from "../components/Collection";
 
 export default function Home() {
   return (
