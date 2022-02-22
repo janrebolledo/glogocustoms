@@ -1,11 +1,11 @@
 import Head from "next/head";
-import PartnersPage from "../components/Partners";
+import PartnersPage from "../components/PartnersPage";
 
 export default function Partners() {
   return (
     <main>
       <Head>
-        <title>Glogo Customs</title>
+        <title>Partners — Glogo Customs</title>
         <link
           rel="icon"
           href="https://www.glogocustoms.com/favicon.ico"
@@ -24,7 +24,7 @@ export default function Partners() {
         <meta name="language" content="English"></meta>
         <meta name="revisit-after" content="12 days"></meta>
       </Head>
-      <PartnersPage />
+      {/* <PartnersPage /> */}
     </main>
   );
 }
