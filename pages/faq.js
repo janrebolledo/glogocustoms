@@ -5,15 +5,15 @@ import styles from "../styles/FAQ.module.css";
 import Works1 from "../public/FAQ Images/WillWork1.png";
 import Works2 from "../public/FAQ Images/WillWork2.png";
 import Works3 from "../public/FAQ Images/WillWork3.png";
-import Works4 from "../public/FAQ Images/Will Work 4.png";
-import Works5 from "../public/FAQ Images/Will Work 5.png";
-import Works6 from "../public/FAQ Images/Will Work 6.png";
-import Works7 from "../public/FAQ Images/Will Work 7.png";
-import Works8 from "../public/FAQ Images/Will Work 8.png";
+import Works4 from "../public/FAQ Images/WillWork4.png";
+import Works5 from "../public/FAQ Images/WillWork5.png";
+import Works6 from "../public/FAQ Images/WillWork6.png";
+import Works7 from "../public/FAQ Images/WillWork7.png";
+import Works8 from "../public/FAQ Images/WillWork8.png";
 
-import WontWork1 from "../public/FAQ Images/Wont Work 1.png";
-import WontWork2 from "../public/FAQ Images/Wont Work 2.png";
-import WontWork3 from "../public/FAQ Images/Wont Work 3.png";
+import WontWork1 from "../public/FAQ Images/WontWork1.png";
+import WontWork2 from "../public/FAQ Images/WontWork2.png";
+import WontWork3 from "../public/FAQ Images/WontWork3.png";
 
 import ColorOptions from "../components/ColorOptions";
 
