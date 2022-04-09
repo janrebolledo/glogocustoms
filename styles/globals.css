@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Material+Icons");
 @font-face {
   font-family: Sequel;
-  src: url("../public/fonts/Sequel100Black-85.ttf");
+  src: url("/fonts/Sequel100Black-85.ttf");
 }
 
 html,
