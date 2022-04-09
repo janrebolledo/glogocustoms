@@ -40,8 +40,10 @@
   margin-bottom: 12px;
 }
 
-.partners__image {
+.partners__card img {
   width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
 }
 
 .partners__socials {
